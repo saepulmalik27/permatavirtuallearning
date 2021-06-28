@@ -1,0 +1,49 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Variables
+@import 'variables';
+
+// Typo
+@import 'typo';
+
+// Mixins
+@import 'mixins';
+
+@import 'colors';
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: $font-montserrat;
+}
+
+html {
+    // define 1 rem
+    font-size: 62.5%;
+}
+
+body { 
+    background-color: $permata-bgc;
+    color: white;
+    position: relative;
+
+    @include media-max-width($xl-tablet-breakpoint) {
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}

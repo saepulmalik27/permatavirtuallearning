@@ -1,0 +1,96 @@
+// Mixins
+@import 'src/scss/mixins';
+
+
+h1, h2, h3, h4, h5, h6, p, a, ul, button, label {
+    display: inline;
+}
+
+h1, h2, h4, a, h3, h5, h6, p, ul, button, label  {
+    font-family: $font-montserrat;
+}
+
+
+strong {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4.8rem;
+
+    @include media-max-width($tablet-breakpoint) {
+        font-size: 3.8rem;
+    }
+
+    @include media-max-width($mobile-breakpoint) {
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    font-size: 4rem;
+
+    @include media-max-width($tablet-breakpoint) {
+        font-size: 3.2rem;
+    }
+
+    @include media-max-width($mobile-breakpoint) {
+        font-size: 2.8rem;
+    }
+}
+
+h3 {
+    font-size: 3.2rem;
+
+    @include media-max-width($tablet-breakpoint) {
+        font-size: 1.6rem;
+    }
+}
+
+h4 {
+    font-size: 2.4rem;
+
+    @include media-max-width($tablet-breakpoint) {
+        font-size: 1.8rem;
+    }
+}
+
+h5, ul {
+    font-size: 2rem;
+
+    @include media-max-width($tablet-breakpoint) {
+        font-size: 2rem;
+    }
+}
+
+h6 {
+    font-size: 1.6rem;
+
+    @include media-max-width($xl-tablet-breakpoint) {
+        font-size: 1.4rem;
+    }
+
+    @include media-max-width($mobile-breakpoint) {
+        font-size: 1.2rem;
+    }
+}
+
+p, a, button {
+    font-size: 1.6rem;
+
+    @include media-max-width($tablet-breakpoint) {
+        font-size: 1.4rem;
+    }
+}
+
+label {
+    font-size: 1.4rem;
+
+    @include media-max-width($xl-tablet-breakpoint) {
+        font-size: 1.2rem;
+    }
+
+    @include media-max-width($mobile-breakpoint) {
+        font-size: 1rem;
+    }
+}

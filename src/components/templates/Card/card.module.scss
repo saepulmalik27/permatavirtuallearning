@@ -1,0 +1,29 @@
+@import 'src/scss/mixins';
+.card { 
+    position: relative;
+    z-index: 998;
+    width: inherit;
+    &_title{
+        margin-bottom: 4rem;
+        font-weight: 800;
+        &__illu{
+            width: 100%;
+            max-width: 500px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    &_body{
+        width: inherit;
+        height: inherit;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+        &__cta{
+            padding: 2rem 0;
+        }
+    }
+
+}

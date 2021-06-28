@@ -1,0 +1,5 @@
+@import "src/scss/mixins";
+.section{
+    position: relative;
+    @include global-gap()
+}

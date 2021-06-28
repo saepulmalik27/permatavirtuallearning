@@ -1,0 +1,89 @@
+// Mixins
+@import 'src/scss/mixins';
+
+
+// Desktop only
+.desktop_only {
+    @include media-max-width($xl-tablet-breakpoint) {
+        display: none !important;
+    }
+
+    @include media-max-width($tablet-breakpoint) {
+        display: none !important;
+    }
+
+    @include media-max-width($mobile-breakpoint) {
+        display: none !important;
+    }
+}
+
+
+// Desktop only
+.desktop_xl_tablet_only {
+    @include media-max-width($tablet-breakpoint) {
+        display: none;
+    }
+
+    @include media-max-width($mobile-breakpoint) {
+        display: none;
+    }
+}
+
+
+// Desktop & Tablet only
+.desktop_tablet_only {
+    @include media-max-width($mobile-breakpoint) {
+        display: none;
+    }
+}
+
+
+// Tablet only
+.tablet_only {
+    display: none;
+
+    @include media-max-width($tablet-breakpoint) {
+        display: block;
+    }
+
+    @include media-max-width($mobile-breakpoint) {
+        display: none;
+    }
+}
+
+
+// XL Tablet & Mobile only
+.xl_tablet_mobile_only {
+    display: none !important;
+    
+    @include media-max-width($xl-tablet-breakpoint) {
+        &_b { display: block !important; }
+        &_f { display: flex !important; }
+    }
+}
+
+
+// Tablet & Mobile only
+.tablet_mobile_only {
+    display: none !important;
+    
+    @include media-max-width($tablet-breakpoint) {
+        &_b { display: block !important; }
+        &_f { display: flex !important; }
+    }
+}
+
+
+// Mobile only
+.mobile_only {
+    display: none;
+
+    @include media-max-width($tablet-breakpoint) {
+        display: none;
+    }
+    
+    @include media-max-width($mobile-breakpoint) {
+        &_b { display: block; }
+        &_f { display: flex; }
+    }
+}

@@ -1,0 +1,35 @@
+@import "src/scss/mixins";
+.contentillu{
+    width: 100%;
+
+    &_title{
+        margin-bottom: 5rem;
+    }
+
+    &_subtitle{
+        margin-bottom: 2.4rem;
+    }
+
+    &_content{
+        display: flex;
+        flex-direction: row;
+        @include media-max-width($mobile-breakpoint) {flex-direction: column;}
+
+        &_illu {
+            max-width: 500px;
+            width: 100%;
+            img {
+              width: inherit;
+              height: auto;
+            }
+          }
+        
+    }
+
+    &_cta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

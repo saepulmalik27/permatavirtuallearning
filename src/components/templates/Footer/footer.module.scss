@@ -1,0 +1,10 @@
+@import 'src/scss/colors';
+.footer{
+    background-color: $permata-footer;
+    padding: 2.5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}

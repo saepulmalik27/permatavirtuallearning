@@ -1,0 +1,21 @@
+@import "src/scss/colors";
+@import "src/scss/mixins";
+
+.header{
+    display: flex;
+    flex-direction: row; 
+    box-shadow: 4px 8px 30px rgba(255, 255, 255, 0.05);
+    position: sticky;
+    z-index : 999;
+    top: 0;
+    background-color: $permata-bgc;
+
+    .navbar{
+        flex-grow: 1;
+    }
+
+    padding: 2.5rem 10vw;
+    @include media-max-width($initial-responsive-breakpoint) {
+        padding: 2.5rem  5vw;
+    }
+}

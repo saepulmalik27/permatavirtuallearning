@@ -1,0 +1,31 @@
+@import "src/scss/colors";
+.tabs {
+  width: 100%;
+  &_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    border-bottom: 2px solid $permata-bgc-secondary;
+    &__item {
+      padding: 0.5em 1em;
+      cursor: pointer;
+      text-transform: capitalize;
+    }
+    .current {
+      background: $permata-bgc-secondary;
+      color: white;
+      border: 2px solid $permata-bgc-secondary;
+      border-bottom: 0;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+  }
+
+  &_content {
+    background-color: $permata-bgc-secondary;
+    padding: 2.5rem;
+  
+    
+  }
+}

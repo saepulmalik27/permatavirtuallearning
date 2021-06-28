@@ -1,0 +1,37 @@
+@import "src/scss/mixins";
+
+.withillu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  @include media-max-width($mobile-breakpoint) {flex-direction: column;}
+  &_illu {
+    margin-left: 5rem;
+    max-width: 500px;
+    width: 100%;
+    @include media-max-width($mobile-breakpoint) {
+      margin-left: unset;
+    }
+    &__img {
+      width: inherit;
+      height: auto;
+    }
+  }
+
+  &.reverse {
+    flex-direction: row-reverse;
+    @include media-max-width($mobile-breakpoint) {
+      flex-direction: column-reverse;
+    }
+    .withillu_illu {
+      margin-left: unset;
+      margin-right: 5rem;
+      @include media-max-width($mobile-breakpoint) {
+        margin-right: unset;
+      }
+    }
+  }
+
+  //   @include media-max-width($tablet-breakpoint) {
+  //   }
+}

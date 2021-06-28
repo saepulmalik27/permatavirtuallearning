@@ -1,0 +1,34 @@
+@import "src/scss/colors";
+@import "src/scss/mixins";
+.button{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    // box-shadow: 3px 8px 25px rgba(251, 251, 251, 0.26);
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 1.8rem;
+
+    &_secondary{
+        background-color: $permata-secondary;
+        color: white;
+    }
+    &_primary{
+        background-color: $permata-primary;
+        color: white;
+    }
+
+    &_lg { 
+        padding: 1.25rem 3.75rem; 
+
+        @include media-max-width($tablet-breakpoint) {
+            padding: 0.81rem 3rem; 
+            font-size: 1.6rem;
+        }
+    }
+
+    &_sm { 
+        padding: .81rem 3.75rem; 
+    }
+}

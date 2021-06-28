@@ -1,0 +1,99 @@
+// Variables
+@import 'src/scss/variables';
+
+// Colors
+@import 'src/scss/colors';
+
+
+
+.primary{
+    color : $permata-primary
+}
+
+.secondary{
+    color : $permata-secondary
+}
+
+.black {
+    color: $black;
+
+    // Opacity
+    &_o_4 { color: $black; opacity: .4; }
+    &_o_5 { color: $black; opacity: .5; }
+    &_o_7 { color: $black; opacity: .7; }
+    &_o_8 { color: $black; opacity: .8; }
+}
+
+.white {
+    color: white;
+
+    &_o_5 { color: white; opacity: .5; }
+    &_o_7 { color: white; opacity: .7; }
+}
+
+.gray {
+    color: $gray;
+}
+
+.soft_gray {
+    color: $-soft-gray;
+}
+
+.violet {
+    color: $violet;
+}
+
+.disabled {
+    color: $disabled;
+
+    &_o_8 { color: $disabled; opacity: .8; }
+}
+
+.text{
+  &_center{ text-align: center; }
+  &_right{ text-align: right;}
+}
+
+// Font Weight
+.fw {
+    &_400 { font-weight: 400; }
+    &_500 { font-weight: 500; }
+    &_600 { font-weight: 600; }
+    &_700 { font-weight: 700; }
+}
+
+// Line Height
+.lh {
+    &_130 { line-height: 130%; }
+    &_140 { line-height: 140%; }
+    &_150 { line-height: 150%; }
+    &_170 { line-height: 170%; }
+}
+
+// Letter Spacing
+.ls {
+    &_1 { letter-spacing: 1px; }
+    &_2 { letter-spacing: 2px; }
+    &_3 { letter-spacing: 3px; }
+}
+
+// Font Family
+
+
+// Font Style
+.fs {
+    &_italic { font-style: italic; }
+}
+
+// Text Align
+.ta {
+    &_center { text-align: center; }
+}
+
+// Another Size Font
+.size {
+    &_18 { font-size: 1.8rem; }
+    &_16 { font-size: 1.6rem; }
+    &_12 { font-size: 1.2rem; }
+    &_20 { font-size: 2rem;}
+}
