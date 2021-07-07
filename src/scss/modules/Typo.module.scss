@@ -102,3 +102,13 @@
     &_12 { font-size: 1.2rem; }
     &_20 { font-size: 2rem;}
 }
+
+.column{
+    flex-direction: column !important;
+}
+.column_reverse{
+    flex-direction: column-reverse !important;
+}
+.row_reverse{
+    flex-direction: row-reverse !important;
+}

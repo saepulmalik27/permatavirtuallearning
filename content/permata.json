@@ -1,71 +1,333 @@
 {
-  "hero": {
-    "title": {
-      "type": "image",
-      "content": "https://ik.imagekit.io/saepulmalik/PLW/plw-logo_1D-byOmGW57r.png"
+  "sections": [
+    {
+      "section": {
+        "name": "hero",
+        "component": "WithIllu"
+      },
+      "title": {
+        "type": "image",
+        "content": "https://ik.imagekit.io/saepulmalik/PLW/plw-logo_1D-byOmGW57r.png"
+      },
+      "description": "<p> Permata Virtual Learning Week, <br/> Save the date:  </p> <br/> <p> <b>3 - 5 Agustus 2021 | 10.00 - 17.00 WIB </b></p>",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/hero_illu_9Nvwacc-3B5R.png",
+      "cta": [{ "title": "Daftar Session", "url": "https://google.com" }]
     },
-    "description": "<p> Permata Virtual Learning Week, <br/> Save the date:  </p> <br/> <p> <b>3 - 5 Agustus 2021 | 10.00 - 17.00 WIB </b></p> ",
-    "src": "https://ik.imagekit.io/saepulmalik/PLW/hero_illu_9Nvwacc-3B5R.png",
-    "cta": [{ "title": "Daftar Session", "url": "https://google.com" }]
-  },
-  "about": {
-    "title": {
-      "type": "text",
-      "content": "Tentang Permata Virtual Learning Week",
-      "style" : "neon"
+    {
+      "section": {
+        "name": "about",
+        "component": "About"
+      },
+      "title": {
+        "type": "text",
+        "content": "Tentang Permata Virtual Learning Week",
+        "style": "neon"
+      },
+      "description": "<p> Teknologi digital mendisrupsi banyak sektor bisnis, termasuk perbankan. Masa depan seolah-olah didefinisikan oleh dua opsi saja: untuk ikut mendisrupsi atau terdisrupsi. <br/><br/> Namun, di tengah dunia yang serba berubah, 'terlambat' jadi semakin dekat. Keputusan tak hanya harus tepat, tapi juga cepat. Pemenangnya tidak pula tetap, melihat skenario yang kian Volatile, Uncertain, Complex, dan Ambiguous kini. Satu hal yang pasti, di balik kejayaan manapun juga, peran Sumber Daya Manusia punya pengaruh besar. Mereka menciptakan satu perubahan untuk membuka lebih banyak pintu lainnya. <br/><br/> Permata Learning Week hadir untuk menyadarkan kembali kapabilitas dan kapasitas tiap insan PermataBank  agar siap bertempur dalam tiap agenda transformasi. Pertanyaannya adalah, kita sudah sampai mana? <br/><br/> Temukan jawabannya di tiap sesi menarik yang dihadirkan tahun ini. </p>",
+      "align": "center"
     },
-    "description": "<p> Teknologi digital mendisrupsi banyak sektor bisnis, termasuk perbankan. Masa depan seolah-olah didefinisikan oleh dua opsi saja: untuk ikut mendisrupsi atau terdisrupsi. <br/><br/> Namun, di tengah dunia yang serba berubah, 'terlambat' jadi semakin dekat. Keputusan tak hanya harus tepat, tapi juga cepat. Pemenangnya tidak pula tetap, melihat skenario yang kian Volatile, Uncertain, Complex, dan Ambiguous kini. Satu hal yang pasti, di balik kejayaan manapun juga, peran Sumber Daya Manusia punya pengaruh besar. Mereka menciptakan satu perubahan untuk membuka lebih banyak pintu lainnya. <br/><br/> Permata Learning Week hadir untuk menyadarkan kembali kapabilitas dan kapasitas tiap insan PermataBank  agar siap bertempur dalam tiap agenda transformasi. Pertanyaannya adalah, kita sudah sampai mana? <br/><br/> Temukan jawabannya di tiap sesi menarik yang dihadirkan tahun ini. </p>",
-    "align": "center"
-  },
-  "askSpeaker": {
-    "title": { "type": "text", "content": "Ask Speaker","style" : "neon" },
-    "description": "<p> Punya pertanyaan untuk para pembicara di Permata Learning Week 2021? Yuk langsung tanyakan sekarang! Pertanyaan yang terpilih akan dibacakan pada saat rangkaian acara webinar berlangsung. </p> ",
-    "src": "https://ik.imagekit.io/saepulmalik/PLW/speaker_illu_bDPLfRXwmW7z.png",
-    "cta": [
-      {
-        "title": "Submit",
-        "url": "https://google.com"
-      }
-    ]
-  },
-  "scheduleWebinar": [],
-  "permataGotTalent": {
-    "title": { "type": "text", "content": "Permata Got Talent", "style" : "neon" },
-    "description": "<p> Punya bakat menari, menyanyi, baca puisi, atau stand up comedy yang selama ini terpendam? Ini saatnya jadi bintang di Permata Got Talent! 3 pemenang terpilih akan tampil secara eksklusif di Closing Ceremony Permata Learning Week 2021. Tunggu apa lagi? Tunjukkan bakat luar biasamu sekarang! Kirimkan video kamu ke alamat email berikut permatalearningweek2021@gmail.com</p> ",
-    "src": "https://ik.imagekit.io/saepulmalik/PLW/list_illu_h-yYXrPYs.png"
-  },
-  "podcastRecomandation": {
-    "title": { "type": "text", "content": "Podcast Recomandation","style" : "neon" },
-    "description": "<p> Ingin banyak belajar tapi tidak tahu harus mulai dari mana? Temukan berbagai podcast menarik mengenai skills, business & finance, serta technology & innovation yang siap temani waktu belajar kamu. Kalau tidak dimulai dari diri sendiri, siapa lagi? </p> ",
-    "src": "https://ik.imagekit.io/saepulmalik/PLW/podcast-recomandation_illu_1B_pctBwu.png",
-    "cta": [
-      {
-        "title": "Visit",
-        "url": "https://google.com"
-      }
-    ]
-  },
-  "virtualBackground" :{
-    "title": { "type": "text", "content": "Virtual Background", "style" : "neon" },
-    "description": "<p> Ayo download virtual backgroud ini dan jangan lupa untuk memakainya ketika kamu mengikuti sesi webinar Permata Learning Week 2021 pada tanggal 3 - 5 Agustus 2021/p> ",
-    "src": "https://ik.imagekit.io/saepulmalik/PLW/list_illu_h-yYXrPYs.png",
-    "cta":[{
-        "title" : "Download",
-        "url" : "https://google.com"
-    }]
-  },
-  "virtualPhotoBoot": {
-    "title": {"type" : "text", "content" : "Give Your Best Smile", "style" : "neon"},
-    "subtitle": "Try virtual photobooth",
-    "content": [
-      { "src": "https://ik.imagekit.io/saepulmalik/PLW/vpb_2_4AJn0lgAe.png" },
-      { "src": "https://ik.imagekit.io/saepulmalik/PLW/vpb_1_Ptkxk-ejkVk0.png" }
-    ],
-    "cta": [
-      {
-        "title": "Submit",
-        "url": "https://google.com"
-      }
-    ]
-  }
+    {
+      "section": {
+        "name": "askSpeaker",
+        "component": "WithIllu"
+      },
+      "title": { "type": "text", "content": "Ask Speaker", "style": "neon" },
+      "description": "<p> Punya pertanyaan untuk para pembicara di Permata Learning Week 2021? Yuk langsung tanyakan sekarang! Pertanyaan yang terpilih akan dibacakan pada saat rangkaian acara webinar berlangsung. </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/speaker_illu_bDPLfRXwmW7z.png",
+      "cta": [
+        {
+          "title": "Submit",
+          "url": "https://google.com"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "section": {
+        "name": "schedule",
+        "component": "EventList"
+      },
+      "title": {
+        "type": "text",
+        "content": "Schedule"
+      },
+      "description": "<p>Penasaran dengan tema webinar dan pembicara yang turut meramaikan Permata Learning Week 2021? Lihat dan catat jadwalnya di sini agar tak ketinggalan!</p>",
+      "contentType": "lists",
+      "contents" : [
+        {
+          "title" : "3 Agustus 2021",
+          "list_content" : [
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Opening Permata Learning Week 2021",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Bain & Company Abdy Dharma Salimin</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Branch through Digital Transformation",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Ricky Diego</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Digital Cyber Risk",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Daniel Victor Sirait</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Digital Channel: Market & Opportunity",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Indra Gunawan</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "4 Agustus 2021",
+          "list_content" : [
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Building Future Leader",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Handry Satriago</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Financial Acumen",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Axel Efralm</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Creative & Innoative Thinking",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Danny Kosasih</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Permata Digital Banking Webinar",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Regi Wahyu, Gildas Deograt, Teguh Supangkat</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "5 Agustus 2021",
+          "list_content" : [
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Dealing with Zoom Fatigue",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Saskhya Aulia Prima</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Find Your Why",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Ali Zaenal Abidin</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Rising Children in Digital Era",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Elizabeth Santosa</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Personal Branding",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 13.00 -15.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Christian Sugiono</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Creative Effective Digital Content with The Right Tools",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 13.00 -15.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Coming Soon</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "event": {
+                "title": "Closing Permata Learning Week 2021",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 15.20 -17.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Dayan Sadikin</p>"
+              },
+              "cta" : [
+                {
+                  "title" : "join room",
+                  "url" : "https://google.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": {
+        "name": "permataGotTalent",
+        "component": "WithIllu"
+      },
+      "title": {
+        "type": "text",
+        "content": "Permata Got Talent",
+        "style": "neon"
+      },
+      "description": "<p> Punya bakat menari, menyanyi, baca puisi, atau stand up comedy yang selama ini terpendam? Ini saatnya jadi bintang di Permata Got Talent! 3 pemenang terpilih akan tampil secara eksklusif di Closing Ceremony Permata Learning Week 2021. Tunggu apa lagi? Tunjukkan bakat luar biasamu sekarang! Kirimkan video kamu ke alamat email berikut permatalearningweek2021@gmail.com </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/permata-gottalent_illu_-SwxSoBvl.png",
+      "reverse": true
+    },
+    {
+      "section": {
+        "name": "podcastRecomandation",
+        "component": "WithIllu"
+      },
+      "title": {
+        "type": "text",
+        "content": "Podcast Recomandation",
+        "style": "neon"
+      },
+      "description": "<p> Ingin banyak belajar tapi tidak tahu harus mulai dari mana? Temukan berbagai podcast menarik mengenai skills, business & finance, serta technology & innovation yang siap temani waktu belajar kamu. Kalau tidak dimulai dari diri sendiri, siapa lagi? </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/podcast-recomandation_illu_1B_pctBwu.png",
+      "cta": [
+        {
+          "title": "Visit",
+          "url": "https://google.com"
+        }
+      ]
+    },
+    {
+      "section": {
+        "name": "virtualBackground",
+        "component": "WithIllu"
+      },
+      "title": {
+        "type": "text",
+        "content": "Virtual Background",
+        "style": "neon"
+      },
+      "description": "<p> Ayo download virtual backgroud ini dan jangan lupa untuk memakainya ketika kamu mengikuti sesi webinar Permata Learning Week 2021 pada tanggal 3 - 5 Agustus 2021 </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/list_illu_h-yYXrPYs.png",
+      "cta": [
+        {
+          "title": "Download",
+          "url": "https://google.com"
+        }
+      ]
+    },
+    {
+      "section": {
+        "name": "virtualPhotobooth",
+        "component": "ContentIllu"
+      },
+      "title": {
+        "type": "text",
+        "content": "Give Your Best Smile",
+        "style": "neon"
+      },
+      "subtitle": "Try virtual photobooth",
+      "content": [
+        {
+          "src": "https://ik.imagekit.io/saepulmalik/PLW/vpb_1_Ptkxk-ejkVk0.png"
+        },
+        { "src": "https://ik.imagekit.io/saepulmalik/PLW/vpb_2_4AJn0lgAe.png" }
+      ],
+      "cta": [
+        {
+          "title": "Take Your Photo",
+          "url": "https://google.com"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect } from "react"
+import React, { useState} from "react"
 
 import Logo from "components/atoms/Logo"
 import Navbar from "components/templates/Navbar"
@@ -9,19 +9,19 @@ import { disableScroll } from "src/utils/helpers"
 
 const Header = () => {
   const [showSidebar, setShowSidebar] = useState(false)
-  const [size, setSize] = useState([0, 0])
+  // const [size, setSize] = useState([0, 0])
 
-  const updateSize = () => {
-    setSize([window.innerWidth, window.innerHeight])
-  }
+  // // const updateSize = () => {
+  // //   setSize([window.innerWidth, window.innerHeight])
+  // }
 
-  useLayoutEffect(() => {
-    window.addEventListener("resize", updateSize)
-    updateSize()
-    return () => {
-      return () => window.removeEventListener("resize", updateSize)
-    }
-  }, [])
+  // useLayoutEffect(() => {
+  //   window.addEventListener("resize", updateSize)
+  //   updateSize()
+  //   return () => {
+  //     return () => window.removeEventListener("resize", updateSize)
+  //   }
+  // }, [])
 
   const handleClick = e => {
     e.preventDefault()

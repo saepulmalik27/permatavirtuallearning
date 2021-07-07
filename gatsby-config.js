@@ -1,6 +1,9 @@
 const path = require('path');
 
 module.exports = {
+  flags: {
+    DEV_SSR: false,
+  },
   siteMetadata: {
     title: `Permata Virtual Learning`,
     description: `permata virtual learning`,

@@ -43,10 +43,11 @@ const Card = ({ title, description, cta, align }) => {
 
   const renderCTA = (cta) => {
     return cta.map((val, key) => {
-      console.log(val);
       return <Button type={"primary"} size={"small"} key={key}>{val.title}</Button>
     })
   }
+
+  
 
   return (
     <div className={styles.card}>
@@ -71,14 +72,14 @@ const Card = ({ title, description, cta, align }) => {
 Card.defaultProps = {
   title : {"type" : "text", "content" : "lorem", "style" : null},
   description : "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus omnis aut quae non et illo in fuga, amet voluptates esse eaque ea repellat, aspernatur tempora vero iusto itaque, praesentium facilis. </p>",
-  cta : false,
+  cta : [],
   align : null
 }
 
 Card.propTypes = {
-  title : PropTypes.string,
+  title : PropTypes.object,
   description: PropTypes.string,
-  cta : PropTypes.bool,
+  cta : PropTypes.array,
   align : PropTypes.string
 }
 

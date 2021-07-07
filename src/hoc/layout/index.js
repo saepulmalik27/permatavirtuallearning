@@ -6,16 +6,6 @@ import Footer from "components/templates/Footer"
 import 'src/scss/App.global.scss'
 
 const Layout = ({ children }) => {
-  // const data = useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
-
   return (
     <>
       <Header />

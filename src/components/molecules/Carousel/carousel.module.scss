@@ -1,0 +1,11 @@
+.carousel{
+    max-height: 50rem;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    scroll-behavior: smooth;
+}
