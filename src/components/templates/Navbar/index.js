@@ -12,7 +12,7 @@ const Navbar = ({ hide, direction, cta }) => {
   } else {
     return (
       <nav className={cx(styles.navbar, direction === 'column' ? styles.column : "" )}>
-        <List />
+        <List direction={direction} />
         {cta ? <Button type={"primary"} size={"small"}>
           Daftar
         </Button> :  null}

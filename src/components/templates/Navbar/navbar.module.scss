@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: flex-end;
     flex-grow: 1;
-    .column{
+    height: 100%;
+    &.column{
         flex-direction: column !important;
     }
 }

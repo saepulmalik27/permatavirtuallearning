@@ -5,33 +5,25 @@ import Navbar from "components/templates/Navbar"
 import permata_logo from "src/images/logo/logo-permata.svg"
 import * as styles from "./header.module.scss"
 import Humberger from "components/atoms/Humberger"
-import { disableScroll } from "src/utils/helpers"
+import { disableScroll } from "src/utils/helpers";
+import cx from 'classnames'
 
 const Header = () => {
   const [showSidebar, setShowSidebar] = useState(false)
-  // const [size, setSize] = useState([0, 0])
-
-  // // const updateSize = () => {
-  // //   setSize([window.innerWidth, window.innerHeight])
-  // }
-
-  // useLayoutEffect(() => {
-  //   window.addEventListener("resize", updateSize)
-  //   updateSize()
-  //   return () => {
-  //     return () => window.removeEventListener("resize", updateSize)
-  //   }
-  // }, [])
-
   const handleClick = e => {
     e.preventDefault()
     setShowSidebar(!showSidebar)
-    // setTimeout(() => {
-    //   !showSidebar ? disableScroll.on() : disableScroll.off()
-    // }, 500)
+    setTimeout(() => {
+      showSidebar === false ? disableScroll.on() : disableScroll.off()
+    }, 500)
   }
+  let headerDirection = "";
+  if (showSidebar) {
+    console.log("hallo");
+    headerDirection = styles.column
+  } 
   return (
-    <header className={styles.header}>
+    <header className={cx(styles.header, headerDirection)}>
       <div className={styles.logo}>
         <Logo src={permata_logo} alt={"permata_logo"} />
       </div>

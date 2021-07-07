@@ -1,3 +1,4 @@
+@import "src/scss/colors";
 .list{
     display: flex;
     flex-direction: row;
@@ -5,10 +6,32 @@
     justify-content: flex-start;
     align-items: center;
     right: auto;
+    height: 100%;
+    &.column{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 4rem;
+        li{
+            height: 4rem;
+            margin-right: unset;
+            width: inherit;
+            margin-bottom: 2rem;
+        }
+        
+    }
     
     li{
-        margin-right: 4rem;
         cursor: pointer;
+        height: 100%;
+        padding: 0 2rem;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    li:hover{
+        background-color:$thumbnail;
+        border-radius: 8px;
     }
     
 }

@@ -1,9 +1,19 @@
-import React from "react";
-import Link from 'gatsby-link';
-import * as styles from './list.module.scss'
-const List = ({tyoe, data}  ) => {
+import React from "react"
+import Link from "gatsby-link"
+import * as styles from "./list.module.scss"
+import cx from "classnames"
+const List = ({ type, data, direction }) => {
+  let contentDirection = ""
+  switch (direction) {
+    case "column":
+      contentDirection = styles.column
+      break
+    default:
+      contentDirection = null
+      break
+  }
   return (
-    <ul className={styles.list}>
+    <ul className={cx(styles.list, contentDirection)}>
       <li>
         <Link>About</Link>
       </li>
@@ -23,4 +33,4 @@ const List = ({tyoe, data}  ) => {
   )
 }
 
-export default List;
+export default List
