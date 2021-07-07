@@ -9,13 +9,22 @@
     z-index : 999;
     top: 0;
     background-color: $permata-bgc;
-
-    .navbar{
-        flex-grow: 1;
-    }
-
     padding: 2.5rem 10vw;
     @include media-max-width($initial-responsive-breakpoint) {
         padding: 2.5rem  5vw;
+    }
+}
+
+.navbar{
+    flex-grow: 1;
+    @include media-max-width($xl-tablet-breakpoint) {
+        display: none;
+    }
+}
+
+.sidebar{
+    display: none;
+    @include media-max-width($xl-tablet-breakpoint) {
+        display: unset;
     }
 }

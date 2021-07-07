@@ -108,4 +108,7 @@
     @include media-max-width($initial-responsive-breakpoint) {
         padding: 8rem 5vw;
     }
+    @include media-max-width($mobile-breakpoint) {
+        padding: 2rem 5vw;
+    }
 }

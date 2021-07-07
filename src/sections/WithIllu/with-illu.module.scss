@@ -21,7 +21,7 @@
   &.reverse {
     flex-direction: row-reverse;
     @include media-max-width($mobile-breakpoint) {
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
     .withillu_illu {
       margin-left: unset;

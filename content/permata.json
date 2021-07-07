@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "title": {
+      "type": "image",
+      "content": "https://ik.imagekit.io/saepulmalik/PLW/plw-logo_1D-byOmGW57r.png"
+    },
+    "description": "<p> Permata Virtual Learning Week, <br/> Save the date:  </p> <br/> <p> <b>3 - 5 Agustus 2021 | 10.00 - 17.00 WIB </b></p> ",
+    "src": "https://ik.imagekit.io/saepulmalik/PLW/hero_illu_9Nvwacc-3B5R.png",
+    "cta": [{ "title": "Daftar Session", "url": "https://google.com" }]
+  },
+  "about": {
+    "title": {
+      "type": "text",
+      "content": "Tentang Permata Virtual Learning Week",
+      "style" : "neon"
+    },
+    "description": "<p> Teknologi digital mendisrupsi banyak sektor bisnis, termasuk perbankan. Masa depan seolah-olah didefinisikan oleh dua opsi saja: untuk ikut mendisrupsi atau terdisrupsi. <br/><br/> Namun, di tengah dunia yang serba berubah, 'terlambat' jadi semakin dekat. Keputusan tak hanya harus tepat, tapi juga cepat. Pemenangnya tidak pula tetap, melihat skenario yang kian Volatile, Uncertain, Complex, dan Ambiguous kini. Satu hal yang pasti, di balik kejayaan manapun juga, peran Sumber Daya Manusia punya pengaruh besar. Mereka menciptakan satu perubahan untuk membuka lebih banyak pintu lainnya. <br/><br/> Permata Learning Week hadir untuk menyadarkan kembali kapabilitas dan kapasitas tiap insan PermataBank  agar siap bertempur dalam tiap agenda transformasi. Pertanyaannya adalah, kita sudah sampai mana? <br/><br/> Temukan jawabannya di tiap sesi menarik yang dihadirkan tahun ini. </p>",
+    "align": "center"
+  },
+  "askSpeaker": {
+    "title": { "type": "text", "content": "Ask Speaker","style" : "neon" },
+    "description": "<p> Punya pertanyaan untuk para pembicara di Permata Learning Week 2021? Yuk langsung tanyakan sekarang! Pertanyaan yang terpilih akan dibacakan pada saat rangkaian acara webinar berlangsung. </p> ",
+    "src": "https://ik.imagekit.io/saepulmalik/PLW/speaker_illu_bDPLfRXwmW7z.png",
+    "cta": [
+      {
+        "title": "Submit",
+        "url": "https://google.com"
+      }
+    ]
+  },
+  "scheduleWebinar": [],
+  "permataGotTalent": {
+    "title": { "type": "text", "content": "Permata Got Talent", "style" : "neon" },
+    "description": "<p> Punya bakat menari, menyanyi, baca puisi, atau stand up comedy yang selama ini terpendam? Ini saatnya jadi bintang di Permata Got Talent! 3 pemenang terpilih akan tampil secara eksklusif di Closing Ceremony Permata Learning Week 2021. Tunggu apa lagi? Tunjukkan bakat luar biasamu sekarang! Kirimkan video kamu ke alamat email berikut permatalearningweek2021@gmail.com</p> ",
+    "src": "https://ik.imagekit.io/saepulmalik/PLW/list_illu_h-yYXrPYs.png"
+  },
+  "podcastRecomandation": {
+    "title": { "type": "text", "content": "Podcast Recomandation","style" : "neon" },
+    "description": "<p> Ingin banyak belajar tapi tidak tahu harus mulai dari mana? Temukan berbagai podcast menarik mengenai skills, business & finance, serta technology & innovation yang siap temani waktu belajar kamu. Kalau tidak dimulai dari diri sendiri, siapa lagi? </p> ",
+    "src": "https://ik.imagekit.io/saepulmalik/PLW/podcast-recomandation_illu_1B_pctBwu.png",
+    "cta": [
+      {
+        "title": "Visit",
+        "url": "https://google.com"
+      }
+    ]
+  },
+  "virtualBackground" :{
+    "title": { "type": "text", "content": "Virtual Background", "style" : "neon" },
+    "description": "<p> Ayo download virtual backgroud ini dan jangan lupa untuk memakainya ketika kamu mengikuti sesi webinar Permata Learning Week 2021 pada tanggal 3 - 5 Agustus 2021/p> ",
+    "src": "https://ik.imagekit.io/saepulmalik/PLW/list_illu_h-yYXrPYs.png",
+    "cta":[{
+        "title" : "Download",
+        "url" : "https://google.com"
+    }]
+  },
+  "virtualPhotoBoot": {
+    "title": {"type" : "text", "content" : "Give Your Best Smile", "style" : "neon"},
+    "subtitle": "Try virtual photobooth",
+    "content": [
+      { "src": "https://ik.imagekit.io/saepulmalik/PLW/vpb_2_4AJn0lgAe.png" },
+      { "src": "https://ik.imagekit.io/saepulmalik/PLW/vpb_1_Ptkxk-ejkVk0.png" }
+    ],
+    "cta": [
+      {
+        "title": "Submit",
+        "url": "https://google.com"
+      }
+    ]
+  }
+}

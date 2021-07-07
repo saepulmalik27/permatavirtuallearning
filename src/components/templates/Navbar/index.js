@@ -1,15 +1,35 @@
-import React from 'react';
-import Button from 'components/atoms/Button'
-import List from 'components/molecules/List'
+import React from "react"
+import Button from "components/atoms/Button"
+import List from "components/molecules/List"
+import cx from "classnames"
+import PropTypes from 'prop-types'
 
-import * as styles from './navbar.module.scss'
+import * as styles from "./navbar.module.scss"
 
-const Navbar = () => {
-    return <nav className={styles.navbar}>
-        <List/>
-        <Button type={"primary"} size={"small"}>Daftar</Button>
-        
-    </nav>
+const Navbar = ({ hide, direction, cta }) => {
+  if (hide) {
+    return null;
+  } else {
+    return (
+      <nav className={cx(styles.navbar, direction === 'column' ? styles.column : "" )}>
+        <List />
+        {cta ? <Button type={"primary"} size={"small"}>
+          Daftar
+        </Button> :  null}
+      </nav>
+    )
+  }
 }
 
-export default Navbar;
+Navbar.defaultProps = {
+  direction : "row",
+  hide : false,
+  cta : false
+}
+
+Navbar.propTypes = {
+  direction : PropTypes.string,
+  hide: PropTypes.bool,
+}
+
+export default Navbar

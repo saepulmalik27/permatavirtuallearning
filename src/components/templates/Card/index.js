@@ -5,9 +5,9 @@ import * as styles from "./card.module.scss"
 import * as Typo from "src/scss/modules/Typo.module.scss"
 import Illu from "components/molecules/Illu"
 import Button from "components/atoms/Button"
+import PropTypes from 'prop-types'
 
 const Card = ({ title, description, cta, align }) => {
-    console.log(description);
   let text_align = Typo.text_center
   switch (align) {
     case "center":
@@ -21,12 +21,31 @@ const Card = ({ title, description, cta, align }) => {
       break
   }
 
+  let title_style = Typo.neon
+  if (title.style) {
+    switch (title.style) {
+      case "neon":
+        title_style = Typo.neon
+        break;
+      default:
+        title_style = null
+        break;
+    }
+  }
+
   const renderTitle = () => {
     if (title.type === "image") {
       return <Illu src={title.content} className={styles.card_title__illu} />
     } else {
-      return <h1 className={cx(Typo.lh_150, Typo.secondary)}>{title.content}</h1>
+      return <h1 className={cx(Typo.lh_150, title_style)}>{title.content}</h1>
     }
+  }
+
+  const renderCTA = (cta) => {
+    return cta.map((val, key) => {
+      console.log(val);
+      return <Button type={"primary"} size={"small"} key={key}>{val.title}</Button>
+    })
   }
 
   return (
@@ -40,13 +59,27 @@ const Card = ({ title, description, cta, align }) => {
         </article>
         {
           cta ? <div className={styles.card_body__cta}>
-          <Button type={"primary"} size={"small"}>{cta}</Button>
+         {renderCTA(cta)}
         </div> : null
         }
         
       </div>
     </div>
   )
+}
+
+Card.defaultProps = {
+  title : {"type" : "text", "content" : "lorem", "style" : null},
+  description : "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus omnis aut quae non et illo in fuga, amet voluptates esse eaque ea repellat, aspernatur tempora vero iusto itaque, praesentium facilis. </p>",
+  cta : false,
+  align : null
+}
+
+Card.propTypes = {
+  title : PropTypes.string,
+  description: PropTypes.string,
+  cta : PropTypes.bool,
+  align : PropTypes.string
 }
 
 export default Card
