@@ -5,7 +5,7 @@ import ContentIllu from "src/sections/ContentIllu"
 import EventList from "src/sections/EventList"
 import Layout from "src/hoc/layout"
 import Seo from "src/hoc/seo"
-import permataJson from "content/permata.json"
+import dataJson from "content/permata.json"
 
 const IndexPage = () => {
   const renderSections = (val, key) => {
@@ -14,9 +14,9 @@ const IndexPage = () => {
         case "WithIllu":
           return <WithIllu {...val} key={key} />
         case "ContentIllu":
-          return <ContentIllu {...val} key={key} />
+          return <ContentIllu {...val} key={key}  />
         case "About":
-          return <About {...val} key={key}/>
+          return <About {...val} key={key} />
         case "EventList":
           return <EventList {...val} key={key}/>
         default:
@@ -27,12 +27,11 @@ const IndexPage = () => {
     }
   }
 
-
   
   return (
-    <Layout>
+    <Layout navigation={dataJson.navigation}>
       <Seo title="Home" />
-      {permataJson.sections.map((val, key) => {
+      {dataJson.sections.map((val, key) => {
         return renderSections(val, key)
       })}
     </Layout>

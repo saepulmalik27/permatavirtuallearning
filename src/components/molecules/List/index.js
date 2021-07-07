@@ -1,8 +1,9 @@
 import React from "react"
 import Link from "gatsby-link"
 import * as styles from "./list.module.scss"
+import scrollTo from 'gatsby-plugin-smoothscroll';
 import cx from "classnames"
-const List = ({ type, data, direction }) => {
+const List = ({ direction, navigation }) => {
   let contentDirection = ""
   switch (direction) {
     case "column":
@@ -14,21 +15,11 @@ const List = ({ type, data, direction }) => {
   }
   return (
     <ul className={cx(styles.list, contentDirection)}>
-      <li>
-        <Link>About</Link>
-      </li>
-      <li>
-        <Link>Ask Speaker</Link>
-      </li>
-      <li>
-        <Link>Webinar</Link>
-      </li>
-      <li>
-        <Link>Challange</Link>
-      </li>
-      <li>
-        <Link>Photobooth</Link>
-      </li>
+      {navigation.map((val, key) => (
+        <li key={key} onClick={() => scrollTo(`#${val.id}`) }>
+          {val.title}
+        </li>
+      ))}
     </ul>
   )
 }

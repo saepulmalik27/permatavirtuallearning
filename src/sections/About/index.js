@@ -3,9 +3,9 @@ import Card from "components/templates/Card"
 import Section from 'components/molecules/Section'
 
 
-const About = ({ title, description, align }) => {
+const About = ({ title, description, align, section }) => {
   return ( 
-    <Section>
+    <Section id={section.name}>
        <Card title={title} description={description}  align={align} />
     </Section>
      

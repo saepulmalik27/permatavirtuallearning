@@ -6,13 +6,13 @@ import PropTypes from 'prop-types'
 
 import * as styles from "./navbar.module.scss"
 
-const Navbar = ({ hide, direction, cta }) => {
+const Navbar = ({ hide, direction, cta, navigation }) => {
   if (hide) {
     return null;
   } else {
     return (
       <nav className={cx(styles.navbar, direction === 'column' ? styles.column : "" )}>
-        <List direction={direction} />
+        <List direction={direction} navigation={navigation}/>
         {cta ? <Button type={"primary"} size={"small"}>
           Daftar
         </Button> :  null}

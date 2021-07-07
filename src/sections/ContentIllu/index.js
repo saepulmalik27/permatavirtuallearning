@@ -8,7 +8,7 @@ import Button from "components/atoms/Button"
 import * as Typo from 'src/scss/modules/Typo.module.scss'
 import * as styles from './content-illu.module.scss'
 
-const ContentIllu = ({ title, subtitle, cta, content }) => {
+const ContentIllu = ({ title, subtitle, cta, content, section }) => {
 
   const renderCTA = (cta) => {
     return cta.map((val, key) => {
@@ -28,7 +28,7 @@ const ContentIllu = ({ title, subtitle, cta, content }) => {
   }
 
   return (
-    <Section>
+    <Section id={section.name}>
       <div className={cx(Typo.text_center, styles.contentillu_title)}>
         <h1 className={cx(Typo.lh_150, title_style )}>{title.content}</h1>
       </div>

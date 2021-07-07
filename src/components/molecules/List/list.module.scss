@@ -28,6 +28,9 @@
         display: flex;
             align-items: center;
             justify-content: center;
+            a{
+                color: white;
+            }
     }
     li:hover{
         background-color:$thumbnail;

@@ -8,14 +8,14 @@ import Humberger from "components/atoms/Humberger"
 import { disableScroll } from "src/utils/helpers";
 import cx from 'classnames'
 
-const Header = () => {
+const Header = ({navigation}) => {
   const [showSidebar, setShowSidebar] = useState(false)
   const handleClick = e => {
     e.preventDefault()
     setShowSidebar(!showSidebar)
-    setTimeout(() => {
-      showSidebar === false ? disableScroll.on() : disableScroll.off()
-    }, 500)
+    // setTimeout(() => {
+    //   showSidebar === false ? disableScroll.on() : disableScroll.off()
+    // }, 500)
   }
   let headerDirection = "";
   if (showSidebar) {
@@ -28,7 +28,7 @@ const Header = () => {
         <Logo src={permata_logo} alt={"permata_logo"} />
       </div>
       <div className={styles.navbar}>
-        <Navbar hide={false} cta={false} />
+        <Navbar hide={false} cta={false} navigation={navigation} />
       </div>
       <div className={styles.sidebar}>
         <Humberger
@@ -36,7 +36,7 @@ const Header = () => {
           open={showSidebar}
           toggleNav={e => handleClick(e)}
         />
-        <Navbar hide={!showSidebar} direction={"column"} cta={false}/>
+        <Navbar hide={!showSidebar} direction={"column"} cta={false} navigation={navigation}/>
       </div>
     </header>
   )

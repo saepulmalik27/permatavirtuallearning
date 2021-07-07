@@ -5,10 +5,10 @@ import Header from "components/templates/Header"
 import Footer from "components/templates/Footer"
 import 'src/scss/App.global.scss'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, navigation }) => {
   return (
     <>
-      <Header />
+      <Header navigation={navigation} />
       <div>
         <main>{children}</main>
       </div>

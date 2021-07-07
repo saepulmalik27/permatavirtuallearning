@@ -5,7 +5,7 @@ import CardEvent from "components/templates/CardEvent"
 import Card from "components/templates/Card"
 import Carousel from "components/molecules/Carousel"
 
-const EventList = ({ title, description, contentType, contents }) => {
+const EventList = ({ title, description, contentType, contents, section }) => {
   const tabComponent = data => (
     <Tabs initialTab={data?.initialTab}>
       {data.tabs.map((tab, key) => (
@@ -42,7 +42,7 @@ const EventList = ({ title, description, contentType, contents }) => {
     }
   }
   return (
-    <Section>
+    <Section id={section.name}>
       <Card title={title} description={description} />
       <br />
       <br />
