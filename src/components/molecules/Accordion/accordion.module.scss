@@ -1,0 +1,86 @@
+// Mixins
+@import 'src/scss/mixins';
+@import 'src/scss/colors';
+
+
+.accordion {
+    background: $thumbnail;
+    opacity: 0.8;
+    box-shadow: 4px 8px 30px rgba(89, 79, 224, 0.05);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    padding: 2.25rem;
+    outline: none;
+    cursor: pointer;
+    color: white;
+
+    @include media-max-width($mobile-breakpoint) {
+        padding: 1.5rem;
+    }
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title {
+            margin-bottom: 0;
+            margin-right: 2rem;
+        }
+
+        .icon {
+            transition: all .2s;
+
+            &.show {
+                transform: rotate(-180deg);
+            }
+        }
+    }
+
+    .description {
+        height: auto;
+        display: none;
+
+        &.show {
+            margin-top: 1.75rem;
+            display: block;
+        }
+
+        li {
+            position: relative;
+            list-style: none;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+    
+            &::before {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                background-color: $black;
+                top: .8rem;
+                left: 0;
+
+                @include media-max-width($mobile-breakpoint) {
+                    top: .6rem;
+                }
+            }
+        }
+
+        a {
+            font-family: inherit;
+            font-size: inherit;
+            color: white;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

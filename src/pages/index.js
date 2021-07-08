@@ -8,6 +8,7 @@ import Seo from "src/hoc/seo"
 import Modal from "components/templates/Modal";
 import dataJson from "content/permata.json"
 import {getFromLocalStorage} from 'src/utils/helpers'
+import Faq from "src/sections/Faq"
 
 const IndexPage = () => {
   const [closeModal, setcloseModal] = useState(true)
@@ -24,6 +25,8 @@ const IndexPage = () => {
           return <About {...val} key={key} />
         case "EventList":
           return <EventList {...val} key={key}/>
+        case "Faq" : 
+        return <Faq {...val} key={key} />
         default:
           return null
       }
@@ -71,6 +74,7 @@ const IndexPage = () => {
         }
         return renderSections(val, key)
       })}
+     
       <Modal hide={closeModal} closed={ hanldeClosed }/>
     </Layout>
   )
