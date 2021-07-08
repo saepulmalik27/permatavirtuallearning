@@ -32,6 +32,10 @@
             .success {
                 border : 1px solid green
             }
+
+            .warning {
+                border : 1px solid yellow
+            }
             & > p{
                 height: 2rem;
                 color: white;
@@ -41,6 +45,10 @@
             }
             .label_success{
                 background-color: green;
+            }
+            .label_warning{
+                background-color: yellow;
+                color: black;
             }
 
         }

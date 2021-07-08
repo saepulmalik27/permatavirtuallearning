@@ -38,7 +38,7 @@ const Login = ({closed}) => {
       setName(user.name)
       setEmail(user.email)
       seterror("")
-      setsuccess("NPK benar, update email(optional) dan lanjutkan")
+      setsuccess("NPK benar, silahkan lanjutkan")
     } else {
       setName("")
       setEmail("")
@@ -83,12 +83,13 @@ const Login = ({closed}) => {
             onChange={e => handleChange(e, "name")}
             disabled={true}
           />
-
+{success ? <p className={styles.label_warning}>update email (optional)</p> : null}
           <Input
             label="email"
             icon={"https://ik.imagekit.io/saepulmalik/PLW/email_iqZq1N-9j.svg"}
             value={email}
             onChange={e => handleChange(e, "email")}
+            className={success ? styles.warning : null}
           />
           
         </div>
