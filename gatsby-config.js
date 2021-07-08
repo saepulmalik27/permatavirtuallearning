@@ -6,8 +6,8 @@ module.exports = {
   },
   siteMetadata: {
     title: `Permata Virtual Learning`,
-    description: `permata virtual learning`,
-    image: `https://cdn.inspigo.id/public/cover/meta-image.png`,
+    description: `Permata virtual learning week , Permata Got talent`,
+    image: `https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png`,
     author: `Inspigo Team`,
   },
   plugins: [

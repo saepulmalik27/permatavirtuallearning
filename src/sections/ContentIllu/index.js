@@ -12,7 +12,7 @@ const ContentIllu = ({ title, subtitle, cta, content, section }) => {
 
   const renderCTA = (cta) => {
     return cta.map((val, key) => {
-      return <Button type="primary" size="small" key={key}>{val.title}</Button>
+      return <Button type="primary" size="small" key={key} cta={() => window.open(val.url, '_blank')} >{val.title}</Button>
     })
   }
   let title_style = Typo.neon

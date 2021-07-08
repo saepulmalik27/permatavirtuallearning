@@ -18,8 +18,8 @@
         "content": "https://ik.imagekit.io/saepulmalik/PLW/plw-logo_1D-byOmGW57r.png"
       },
       "description": "<p> Permata Virtual Learning Week, <br/> Save the date:  </p> <br/> <p> <b>3 - 5 Agustus 2021 | 10.00 - 17.00 WIB </b></p>",
-      "src": "https://ik.imagekit.io/saepulmalik/PLW/hero_illu_9Nvwacc-3B5R.png",
-      "cta": [{ "title": "Daftar Session", "url": "https://google.com" }]
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/hero-plw_CiO6N848_.png",
+      "cta": [{ "title": "Daftar Session", "url": "https://form.typeform.com/to/o2Drpm5d?npk={{npk}}&name={{name}}&email={{email}}", "login" : true }]
     },
     {
       "section": {
@@ -45,7 +45,8 @@
       "cta": [
         {
           "title": "Submit",
-          "url": "https://google.com"
+          "url": "https://form.typeform.com/to/kKDjPOSs?npk={{npk}}&email={{email}}&name={{name}}",
+          "login" : true
         }
       ],
       "reverse": true
@@ -333,7 +334,7 @@
       "cta": [
         {
           "title": "Take Your Photo",
-          "url": "https://google.com"
+          "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
         }
       ]
     }

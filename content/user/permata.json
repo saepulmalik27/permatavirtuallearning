@@ -1,0 +1,9 @@
+{
+    "users" :[
+        {
+            "name" : "malik",
+            "NPK" : "12345",
+            "email" : "malik@inspigo.id"
+        }
+    ]
+}

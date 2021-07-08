@@ -1,11 +1,11 @@
-import React, { useState} from "react"
+import React, { useState, useCallback} from "react"
 
 import Logo from "components/atoms/Logo"
 import Navbar from "components/templates/Navbar"
 import permata_logo from "src/images/logo/logo-permata.svg"
 import * as styles from "./header.module.scss"
 import Humberger from "components/atoms/Humberger"
-import { disableScroll } from "src/utils/helpers";
+// import { disableScroll } from "src/utils/helpers";
 import cx from 'classnames'
 
 const Header = ({navigation}) => {
@@ -17,9 +17,17 @@ const Header = ({navigation}) => {
     //   showSidebar === false ? disableScroll.on() : disableScroll.off()
     // }, 500)
   }
+
+
+  const handleShow = useCallback(
+    () => {
+      setShowSidebar(false)
+    },[showSidebar]
+  )
+  
+
   let headerDirection = "";
   if (showSidebar) {
-    console.log("hallo");
     headerDirection = styles.column
   } 
   return (
@@ -36,7 +44,7 @@ const Header = ({navigation}) => {
           open={showSidebar}
           toggleNav={e => handleClick(e)}
         />
-        <Navbar hide={!showSidebar} direction={"column"} cta={false} navigation={navigation}/>
+        <Navbar hide={!showSidebar} direction={"column"} cta={false} navigation={navigation} handleClick={handleShow}/>
       </div>
     </header>
   )

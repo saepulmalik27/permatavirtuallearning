@@ -1,0 +1,44 @@
+@import "src/scss/mixins"; 
+@import "src/scss/colors";
+.modal{
+    color: white;
+    &__backdrop {
+        position: fixed;
+        background-color: rgba( $thumbnail, .3);
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1000;
+        cursor: pointer;
+    }
+ 
+
+    &__wraper{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 50rem;
+        height: auto;
+        max-height: 100vh;
+        z-index: 1000;
+        animation: opacityAnimation .2s ease-in-out;
+        text-align: center;
+        padding: 3rem 3rem 4rem 3rem;
+        border-radius: 8px;
+
+        @include media-max-width($mobile-breakpoint) {
+            width: calc(100vw - 4rem);
+            padding: 2rem 2rem 3rem 2rem;
+        }
+
+        @keyframes opacityAnimation {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        ;
+    }
+}

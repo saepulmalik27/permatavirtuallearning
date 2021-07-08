@@ -2,14 +2,13 @@
 .inputgroup {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 1.5rem 1.8rem;
-
-  max-width: 345px;
+  align-items: center;
   max-height: 52px;
   background: #ffffff;
   border: 1px solid $grey-2;
   border-radius: .4rem;
+  padding: 1rem;
+  
 
   &_illu{
       width: 24px;
@@ -23,7 +22,7 @@
     border: none;
     border-radius: unset;
     outline: none;
-    padding: 1rem;
-    width: inherit;
+    padding: 1.5rem 1.8rem;
+    flex-grow: 1;
   }
 }
