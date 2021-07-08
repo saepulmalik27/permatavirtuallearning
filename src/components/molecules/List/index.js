@@ -2,7 +2,9 @@ import React from "react"
 import Link from "gatsby-link"
 import * as styles from "./list.module.scss"
 import scrollTo from 'gatsby-plugin-smoothscroll';
-import cx from "classnames"
+import cx from "classnames";
+import PropTypes from 'prop-types'
+
 const List = ({ direction, navigation }) => {
   let contentDirection = ""
   switch (direction) {
@@ -22,6 +24,14 @@ const List = ({ direction, navigation }) => {
       ))}
     </ul>
   )
+}
+
+List.defaultProps = {
+  navigation : []
+}
+
+List.propTypes = {
+  navigation : PropTypes.array
 }
 
 export default List

@@ -3,7 +3,7 @@
     {"title" : "About", "id": "about"  },
     {"title" : "Ask Speaker", "id": "askSpeaker"  },
     {"title" : "Schedule", "id": "schedule"  },
-    {"title" : "Challange", "id": "permataGotTalent"  },
+    {"title" : "Challanges", "id": "permataGotTalent"  },
     {"title" : "Virtual Background", "id": "virtualBackground"  },
     {"title" : "Photobooth", "id": "virtualPhotobooth"  }
   ],
