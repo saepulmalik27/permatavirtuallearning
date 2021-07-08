@@ -67,7 +67,6 @@ const IndexPage = () => {
       <Seo title="Home" />
       {dataJson.sections.map((val, key) => {
         if (user && (val.section.name === 'askSpeaker' || val.section.name === 'hero')) {
-          console.log("hallo");
           val.cta[0].url = val.cta[0].url.replace(`{{npk}}`,user.NPK)
           val.cta[0].url = val.cta[0].url.replace(`{{name}}`,user.name)
           val.cta[0].url = val.cta[0].url.replace(`{{email}}`,user.email)

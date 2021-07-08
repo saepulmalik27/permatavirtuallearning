@@ -5,12 +5,15 @@ import Illu from "components/molecules/Illu"
 import * as styles from "./login.module.scss"
 import userData from "content/user/permata.json"
 import {saveToLocalStorage} from 'src/utils/helpers'
+import cx from "classnames";
 
 const Login = ({closed}) => {
   const [name, setName] = useState("")
   const [NPK, setNPK] = useState("")
   const [error, seterror] = useState("")
   const [email, setEmail] = useState("")
+  const [success, setsuccess] = useState("")
+  const [user, setuser] = useState(null)
 
   const handleChange = (e, val) => {
     switch (val) {
@@ -31,16 +34,22 @@ const Login = ({closed}) => {
   const login = data => {
     const user = userData.users.find(val => val.NPK === data)
     if (user) {
+      setuser(user)
       setName(user.name)
       setEmail(user.email)
       seterror("")
-      saveToLocalStorage(user)
-      closed()
+      setsuccess("NPK benar, update email(optional) dan lanjutkan")
     } else {
       setName("")
       setEmail("")
       seterror("NPK salah, silahkan input NPK yang benar")
+      setsuccess("")
     }
+  }
+
+  const saveLogin = data => {
+    saveToLocalStorage(data)
+    closed()
   }
 
   return (
@@ -63,9 +72,10 @@ const Login = ({closed}) => {
             }
             value={NPK}
             onChange={e => handleChange(e, "npk")}
-            className={error ? styles.error : null}
+            className={cx(error ? styles.error : null, success ? styles.success : null)}
           />
-          {error ? <p>{error}</p> : null}
+          {error ? <p className={styles.label_error}>{error}</p> : null}
+          {success ? <p className={styles.label_success}>{success}</p> : null}
           <Input
             label="Nama"
             icon={"https://ik.imagekit.io/saepulmalik/PLW/user_pEogm2atW.svg"}
@@ -80,8 +90,18 @@ const Login = ({closed}) => {
             value={email}
             onChange={e => handleChange(e, "email")}
           />
+          
         </div>
-        <Button
+        
+        {success ? <Button
+          size={"large"}
+          type={"secondary"}
+          cta={() => {
+            saveLogin(user)
+          }}
+        >
+          Lanjutkan
+        </Button> : <Button
           size={"large"}
           type={"secondary"}
           cta={() => {
@@ -89,7 +109,8 @@ const Login = ({closed}) => {
           }}
         >
           Masuk
-        </Button>
+        </Button>}
+        
       </div>
     </div>
   )
