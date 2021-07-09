@@ -17,13 +17,13 @@ const Carousel = ({ children, className, title }) => {
         <div className={styles.header_container__navigation}>
           <div
             className={styles.header_container__navigation___item}
-            onClick={() => scroll(-600)}
+            onClick={() => scroll(-200)}
           >
             <img src={arrow_left} alt="" />
           </div>
           <div
             className={styles.header_container__navigation___item}
-            onClick={() => scroll(600)}
+            onClick={() => scroll(200)}
           >
             <img src={arrow_right} alt="" />
           </div>
