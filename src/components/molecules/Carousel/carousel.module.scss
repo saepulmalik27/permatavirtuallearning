@@ -1,3 +1,22 @@
+.header_container{
+    display: flex;
+    flex: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__title{
+        flex-grow: 1;
+    }
+    &__navigation{
+        width: 12rem;
+        display: flex;
+        justify-content: space-between;
+        &___item{
+            cursor: pointer;
+        }
+    }
+}
 .carousel{
     max-height: 50rem;
     height: auto;
