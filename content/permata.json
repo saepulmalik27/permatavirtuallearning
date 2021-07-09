@@ -5,7 +5,7 @@
     { "title": "Schedule", "id": "schedule" },
     { "title": "Virtual Background", "id": "virtualBackground" },
     { "title": "Photobooth", "id": "virtualPhotobooth" },
-    { "title": "Faq", "id": "faq" }
+    { "title": "FAQ", "id": "faq" }
   ],
   "sections": [
     {
@@ -18,7 +18,7 @@
         "content": "https://ik.imagekit.io/saepulmalik/PLW/plw-logo_1D-byOmGW57r.png"
       },
       "description": "<p> Permata Virtual Learning Week, <br/> Save the date:  </p> <br/> <p> <b>3 - 5 Agustus 2021 | 10.00 - 17.00 WIB </b></p>",
-      "src": "https://ik.imagekit.io/saepulmalik/PLW/hero-plw_CiO6N848_.png",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/hero-section-plw_N-mjEBPc66EC.png",
       "cta": [
         {
           "title": "Daftar Session",
@@ -73,7 +73,7 @@
           "title": "3 Agustus 2021",
           "list_content": [
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/opening-plw_WJnRlR7Ob.png",
               "event": {
                 "title": "Opening Permata Learning Week 2021",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Bain & Company Abdy Dharma Salimin</p>"
@@ -86,7 +86,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/branchthroughtdigitaltranformation-plw_b170DkjkfufU.png",
               "event": {
                 "title": "Branch through Digital Transformation",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Ricky Diego</p>"
@@ -99,7 +99,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/digitalcyber-plw_1isSAapHz.png",
               "event": {
                 "title": "Digital Cyber Risk",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Daniel Victor Sirait</p>"
@@ -112,7 +112,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/digitalchanelmarketopportunity-plw_mui4149aeR.png",
               "event": {
                 "title": "Digital Channel: Market & Opportunity",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Indra Gunawan</p>"
@@ -130,7 +130,7 @@
           "title": "4 Agustus 2021",
           "list_content": [
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/buildingfutureleader-plw_oTuCbzY9_.png",
               "event": {
                 "title": "Building Future Leader",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Handry Satriago</p>"
@@ -143,7 +143,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/financialacademy-plw_c3VncTvEYW8S.png",
               "event": {
                 "title": "Financial Acumen",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Axel Efralm</p>"
@@ -156,7 +156,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/creative_innovativethinking-plw_OeD8U_9I7.png",
               "event": {
                 "title": "Creative & Innoative Thinking",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Danny Kosasih</p>"
@@ -169,7 +169,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/permatadigitalbankingwebinar_FzOmdX_oP.png",
               "event": {
                 "title": "Permata Digital Banking Webinar",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Regi Wahyu, Gildas Deograt, Teguh Supangkat</p>"
@@ -187,7 +187,7 @@
           "title": "5 Agustus 2021",
           "list_content": [
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/dealingwith-plw_nd5nFYQixSrR.png",
               "event": {
                 "title": "Dealing with Zoom Fatigue",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Saskhya Aulia Prima</p>"
@@ -200,7 +200,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/findyourway-plw_28sCdBIVI.png",
               "event": {
                 "title": "Find Your Why",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Ali Zaenal Abidin</p>"
@@ -213,7 +213,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/risingchildrendigitalera-plw_wHvo15Bi_.png",
               "event": {
                 "title": "Rising Children in Digital Era",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Elizabeth Santosa</p>"
@@ -226,7 +226,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/personalbranding-plw_IbaOsWyWrMd3.png",
               "event": {
                 "title": "Personal Branding",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 13.00 -15.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Christian Sugiono</p>"
@@ -252,7 +252,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png",
+              "src": "https://ik.imagekit.io/saepulmalik/PLW/closing-plw_gAw_MUpy5f0c.png",
               "event": {
                 "title": "Closing Permata Learning Week 2021",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 15.20 -17.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Dayan Sadikin</p>"

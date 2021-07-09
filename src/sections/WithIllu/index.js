@@ -39,12 +39,14 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
   }
 
   
+
+  
   
   return (
     <Section className={cx(styles.withillu, reverse ? styles.reverse : null)} id={section.name}>      
       <Card title={title} description={description} cta={cta} term={term} handleTerm={e => {handleTerm(e)}} />
       <Illu src={src} className={styles.withillu_illu} imgClass={styles.withillu_illu__img} />
-      { term ?  <Modal hide={!showTerm}>
+      { term ?  <Modal hide={!showTerm} closed={() => {setshowTerm(false)} } >
         <Card className={styles.withillu__modal} title={term.title} description={term.description} cta={[{
           ...term.cta[0],
           "url" : term.cta[0].url.replace(`{{token}}`,token)

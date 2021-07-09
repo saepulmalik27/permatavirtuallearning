@@ -5,7 +5,11 @@ import Illu from "components/molecules/Illu"
 import * as styles from "./login.module.scss"
 import userData from "content/user/permata.json"
 import {saveToLocalStorage} from 'src/utils/helpers'
-import cx from "classnames";
+import iconemail from 'src/images/icons/email.svg'
+import iconuser from 'src/images/icons/user.svg'
+import iconlist from 'src/images/icons/userid.svg'
+import iconwarning from 'src/images/icons/warning.svg'
+
 
 const Login = ({closed}) => {
   const [name, setName] = useState("")
@@ -38,11 +42,11 @@ const Login = ({closed}) => {
       setName(user.name)
       setEmail(user.email)
       seterror("")
-      setsuccess("NPK benar, silahkan lanjutkan")
+      setsuccess("Update Email (Optional)")
     } else {
       setName("")
       setEmail("")
-      seterror("NPK salah, silahkan input NPK yang benar")
+      seterror("NPK tidak terdaftar")
       setsuccess("")
     }
   }
@@ -69,29 +73,29 @@ const Login = ({closed}) => {
           <Input
             label="NPK"
             icon={
-              "https://ik.imagekit.io/saepulmalik/PLW/userid_pVMM6xiqit9j_.svg"
+              iconlist
             }
             value={NPK}
             onChange={e => handleChange(e, "npk")}
-            className={cx(error ? styles.error : null, success ? styles.success : null)}
+            disabled={success ? true : false}
           />
-          {error ? <p className={styles.label_error}>{error}</p> : null}
-          {success ? <p className={styles.label_success}>{success}</p> : null}
+          {error ? <p className={styles.label_error}> <img src={iconwarning} alt="" /> {error}</p> : null}
+          <br />
           <Input
             label="Nama"
-            icon={"https://ik.imagekit.io/saepulmalik/PLW/user_pEogm2atW.svg"}
+            icon={iconuser}
             value={name}
             onChange={e => handleChange(e, "name")}
             disabled={true}
           />
-{success ? <p className={styles.label_warning}>update email (optional)</p> : null}
+
           <Input
             label="email"
-            icon={"https://ik.imagekit.io/saepulmalik/PLW/email_iqZq1N-9j.svg"}
+            icon={iconemail}
             value={email}
             onChange={e => handleChange(e, "email")}
-            className={success ? styles.warning : null}
           />
+          {success ? <p className={styles.label_warning}>{success}</p> : null}
           
         </div>
         

@@ -41,14 +41,17 @@
                 color: white;
             } 
             .label_error{
-                background-color: red;
+                text-align: left;
+                color: red;
             }
             .label_success{
-                background-color: green;
+                text-align: left;
+                color: green;
             }
             .label_warning{
-                background-color: yellow;
-                color: black;
+                text-align: left;
+                color: #FFBD23
+                
             }
 
         }
