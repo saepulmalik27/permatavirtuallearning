@@ -3,9 +3,9 @@
     { "title": "About", "id": "about" },
     { "title": "Ask Speaker", "id": "askSpeaker" },
     { "title": "Schedule", "id": "schedule" },
-    { "title": "Challanges", "id": "permataGotTalent" },
     { "title": "Virtual Background", "id": "virtualBackground" },
-    { "title": "Photobooth", "id": "virtualPhotobooth" }
+    { "title": "Photobooth", "id": "virtualPhotobooth" },
+    { "title": "Faq", "id": "faq" }
   ],
   "sections": [
     {
@@ -297,9 +297,24 @@
       "cta": [
         {
           "title": "Visit",
-          "url": "https://google.com"
+          "term" : true,
+          "login" : true,
+          "url": "https://wapi.inspigo.id/client-token/login/TC52rZWu5ASQZeYW9GigEvkGK2kUhH"
         }
-      ]
+      ],
+      "term" : {
+        "title": {
+          "type": "text",
+          "content": "Terms & Conditions"
+        },
+        "description" : "<p> Dengan mengklik “Lanjutkan”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Permata Learning Week 2021) dengan email yang kamu daftarkan pada acara ini.  </p> ",
+        "cta" : [{
+          "title" : "lanjutkan",
+          "url" : "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}",
+          "replaceUrl" : true
+        }
+        ]
+      }
     },
     {
       "section": {
@@ -356,27 +371,27 @@
         },
         {
           "title": "2. Apakah saya harus mendaftar untuk mengikuti Permata Learning Week 2021?",
-          "description": "<p></p>"
+          "description": "<p>Ya, kamu diharuskan mendaftar lewat menu “Daftar Session” agar dapat tervalidasi sebagai peserta Permata Learning Week 2021. Kamu memiliki waktu sampai tanggal 2 Agustus 2021 untuk mendaftar lewat “Daftar Session”.</p>"
         },
         {
           "title": "3. Kapan tenggat waktu pengiriman pertanyaan untuk para pembicara dan pengumpulan video untuk Permata Got Talent?",
-          "description": "<p></p>"
+          "description": "<p>Pengumpulan pertanyaan untuk para pembicara dan video Permata Got Talent akan ditutup pada tanggal 2 Agustus 2021.</p>"
         },
         {
           "title": "4. Apakah pada tanggal 3 - 5 Agustus 2021 saya hanya boleh mengikuti webinar yang sudah saya pilih saat mengisi “Daftar Session”?",
-          "description": "<p></p>"
+          "description": "<p>Kamu disarankan untuk mengikuti sesi webinar yang sudah dipilih sebelumnya pada saat kamu mengisi “Daftar Session”.</p>"
         },
         {
           "title": "5. Di hari H, bagaimana cara saya mengikuti rangkaian sesi webinar Permata Learning Week 2021 yang sudah dipilih?",
-          "description": "<p></p>"
+          "description": "<p>Silahkan akses website plw2021.com dan login terlebih dahulu. Cari sesi webinar yang ingin diikuti di bagian “Schedule” lalu klik tombol “Join Room”.</p>"
         },
         {
           "title": "6. Bagaimana perhitungan poin pada Leaderboard?",
-          "description": "<p></p>"
+          "description": "<p>Perhitungan poin pada Leaderboard didasarkan atas dua hal:  Jumlah kehadiran kamu di sesi webinar yang sudah dipilih dari tanggal 3 - 5 Agustus 2021 dan poin yang kamu kumpulkan saat menjawab quiz selama webinar.</p>"
         },
         {
           "title": "7. Apabila saya ada pertanyaan lain di luar pertanyaan di atas dapat menghubungi ke mana?",
-          "description": "<p></p>"
+          "description": "<p>Silahkan kirimkan pertanyaan kamu ke alamat email permatalearningweek2021@gmail.com atau dapat menghubungi ke nomor Whatsapp berikut +6281383896010 - Aulia atau +62818828389 - Zulfiqar  </p>"
         }
       ]
     }

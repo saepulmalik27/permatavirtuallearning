@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import Interweave from "interweave"
 import cx from "classnames"
 import * as styles from "./card.module.scss"
@@ -6,8 +6,11 @@ import * as Typo from "src/scss/modules/Typo.module.scss"
 import Illu from "components/molecules/Illu"
 import Button from "components/atoms/Button"
 import PropTypes from 'prop-types'
+// import Modal from 'components/templates/Modal'
 
-const Card = ({ title, description, cta, align }) => {
+
+const Card = ({ title, description, cta, align, handleTerm, className }) => {
+  const [showTerm, setshowTerm] = useState(false)
   let text_align = Typo.text_center
   switch (align) {
     case "center":
@@ -21,7 +24,7 @@ const Card = ({ title, description, cta, align }) => {
       break
   }
 
-  let title_style = Typo.neon
+  let title_style = null;
   if (title.style) {
     switch (title.style) {
       case "neon":
@@ -41,16 +44,29 @@ const Card = ({ title, description, cta, align }) => {
     }
   }
 
+  const handleCta = (cta) => {
+    if (cta.term) {
+      setshowTerm(true)
+      handleTerm({url : cta.url, term : true})
+    }else{
+      if (cta.replaceUrl) {
+        window.open(cta.url, '_self')
+      }else{
+        window.open(cta.url, '_blank' )
+      }
+    }
+  }
+
   const renderCTA = (cta) => {
     return cta.map((val, key) => {
-      return <Button type={"primary"} size={"small"} key={key} cta={() => {window.open(val.url, '_blank')}} >{val.title}</Button>
+      return <Button type={"primary"} size={"small"} key={key} cta={() => { handleCta(val) }} >{val.title}</Button>
     })
   }
 
   
 
   return (
-    <div className={styles.card}>
+    <div className={cx(styles.card, className )}>
       <div className={cx(styles.card_title, text_align)}>
           {renderTitle()}
       </div>

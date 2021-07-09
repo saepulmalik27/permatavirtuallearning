@@ -9,6 +9,7 @@ import Modal from "components/templates/Modal";
 import dataJson from "content/permata.json"
 import {getFromLocalStorage} from 'src/utils/helpers'
 import Faq from "src/sections/Faq"
+import Login from "components/templates/Login";
 
 const IndexPage = () => {
   const [closeModal, setcloseModal] = useState(true)
@@ -18,7 +19,7 @@ const IndexPage = () => {
     if (val.section) {
       switch (val.section.component) {
         case "WithIllu":
-          return <WithIllu {...val} key={key} />
+          return <WithIllu {...val} key={key} user={user} />
         case "ContentIllu":
           return <ContentIllu {...val} key={key}  />
         case "About":
@@ -74,7 +75,9 @@ const IndexPage = () => {
         return renderSections(val, key)
       })}
      
-      <Modal hide={closeModal} closed={ hanldeClosed }/>
+      <Modal hide={closeModal} >
+      <Login closed={ hanldeClosed }/>
+      </Modal>
     </Layout>
   )
 }

@@ -48,6 +48,7 @@ const Login = ({closed}) => {
   }
 
   const saveLogin = data => {
+    data.email = email;
     saveToLocalStorage(data)
     closed()
   }

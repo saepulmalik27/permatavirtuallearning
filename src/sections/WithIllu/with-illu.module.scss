@@ -32,6 +32,11 @@
     }
   }
 
+  &__modal{
+    color: black;
+    width: unset;
+  }
+
   //   @include media-max-width($tablet-breakpoint) {
   //   }
 }

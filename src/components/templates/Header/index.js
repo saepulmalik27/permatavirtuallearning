@@ -32,7 +32,7 @@ const Header = ({navigation}) => {
   } 
   return (
     <header className={cx(styles.header, headerDirection)}>
-      <div className={styles.logo}>
+      <div >
         <Logo src={permata_logo} alt={"permata_logo"} />
       </div>
       <div className={styles.navbar}>

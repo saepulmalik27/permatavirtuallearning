@@ -7,35 +7,24 @@ import cx from 'classnames'
 import PropTypes from 'prop-types'
 import Modal from 'components/templates/Modal'
 
-const WithIllu = ({title, description, src, reverse, cta, section, term, user}) => {
+const IndividualLearning = ({title, description, src, reverse, cta, section, term}) => {
 
   const [showTerm, setshowTerm] = useState(false)
-  const [token, settoken] = useState(null)
+  const []
   const handleTerm = (e) => {
     setshowTerm(e.term)
-    getToken(e.url)
-  }
-
-  
-
-  const getToken = (url) => {
-
-    let data = {
-      "email" : user.email,
-      "dob" : null,
-      "name" : `(${user.NPK}) - ${user.name}`,
-      "gender" : null
-    }
-
-    fetch(url, {
+    fetch(e.url, {
       method : "POST",
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(data)
+      body: JSON.stringify({"email": "saepulalmalik@gmail.com",
+      "dob": null,
+      "name": "(mandiri) - saepul malik",
+        "gender": null})
     })
     .then(response => response.json())
-    .then(data => settoken(data.data.token));
+    .then(data => console.log(data.data));
   }
 
   
@@ -45,10 +34,7 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
       <Card title={title} description={description} cta={cta} term={term} handleTerm={e => {handleTerm(e)}} />
       <Illu src={src} className={styles.withillu_illu} imgClass={styles.withillu_illu__img} />
       { term ?  <Modal hide={!showTerm}>
-        <Card className={styles.withillu__modal} title={term.title} description={term.description} cta={[{
-          ...term.cta[0],
-          "url" : term.cta[0].url.replace(`{{token}}`,token)
-        }]} />
+        <Card className={styles.withillu__modal} title={term.title} description={term.description} cta={term.cta} />
       </Modal>  : null}
     </Section>
   )
@@ -62,4 +48,4 @@ WithIllu.propTypes = {
   reverse : PropTypes.bool
 }
 
-export default WithIllu
+export default IndividualLearning
