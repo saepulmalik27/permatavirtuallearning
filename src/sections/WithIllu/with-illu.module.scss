@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  // justify-content: center;
+  align-items: center;
   @include media-max-width($mobile-breakpoint) {flex-direction: column;}
   &_illu {
     margin-left: 5rem;
@@ -35,6 +37,9 @@
   &__modal{
     color: black;
     width: unset;
+    h1{
+      font-size: 3.4rem !important;
+    }
   }
 
   //   @include media-max-width($tablet-breakpoint) {

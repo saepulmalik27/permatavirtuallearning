@@ -68,8 +68,10 @@ const Login = ({closed}) => {
       <div className={styles.login_body}>
         <div className={styles.login_body__title}>
           <h4>Login</h4>
+          <p>Masukan NPK yang terdaftar.</p>
         </div>
         <div className={styles.login_body__form}>
+       
           <Input
             label="NPK"
             icon={
@@ -94,6 +96,7 @@ const Login = ({closed}) => {
             icon={iconemail}
             value={email}
             onChange={e => handleChange(e, "email")}
+            disabled={!success ? true : false}
           />
           {success ? <p className={styles.label_warning}>{success}</p> : null}
           
@@ -101,7 +104,7 @@ const Login = ({closed}) => {
         
         {success ? <Button
           size={"large"}
-          type={"secondary"}
+          type={"primary"}
           cta={() => {
             saveLogin(user)
           }}

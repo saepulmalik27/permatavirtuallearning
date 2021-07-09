@@ -17,6 +17,7 @@
             margin-right: unset;
             width: inherit;
             margin-bottom: 2rem;
+            align-items: center;
         }
         
     }
@@ -26,7 +27,7 @@
         height: 100%;
         padding: 0 2rem;
         display: flex;
-            align-items: center;
+            align-items: flex-end;
             justify-content: center;
             a{
                 color: white;

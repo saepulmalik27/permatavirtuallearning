@@ -3,7 +3,7 @@
 
 .header{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row-reverse; 
     box-shadow: 4px 8px 30px rgba(255, 255, 255, 0.05);
     position: sticky;
     z-index : 999;
@@ -12,7 +12,7 @@
     padding: 2.5rem 10vw;
     &.column{
         
-        @include media-max-width($xl-tablet-breakpoint) {
+        @include media-max-width($initial-responsive-breakpoint) {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
@@ -25,16 +25,18 @@
     }
 }
 
+
+
 .navbar{
     flex-grow: 1;
-    @include media-max-width($xl-tablet-breakpoint) {
+    @include media-max-width($initial-responsive-breakpoint) {
         display: none;
     }
 }
 
 .sidebar{
     display: none;
-    @include media-max-width($xl-tablet-breakpoint) {
+    @include media-max-width($initial-responsive-breakpoint) {
         display: unset;
         flex-grow: 1;
         width: 100%;

@@ -13,9 +13,11 @@
     &_body{
         &__title{
             display: flex;
+            flex-direction: column;
             justify-content: flex-start;
             padding: 1rem 0;
             margin-bottom: 2rem;
+            text-align: left;
         }
 
         &__form{

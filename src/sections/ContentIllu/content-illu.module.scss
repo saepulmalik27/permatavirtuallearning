@@ -29,7 +29,8 @@
                 margin-bottom: 2rem;
             }
         }
-        &_illu:not(:last-child){
+
+        a:not(:last-child){
             margin-right: 2rem; 
             @include media-max-width($mobile-breakpoint) {
                 margin-right: unset;

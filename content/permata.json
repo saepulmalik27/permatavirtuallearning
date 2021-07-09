@@ -3,6 +3,8 @@
     { "title": "About", "id": "about" },
     { "title": "Ask Speaker", "id": "askSpeaker" },
     { "title": "Schedule", "id": "schedule" },
+    {"title" : "Permata Got Talent", "id" : "permataGotTalent"},
+    {"title" : "Podcast", "id" : "podcastRecomandation"},
     { "title": "Virtual Background", "id": "virtualBackground" },
     { "title": "Photobooth", "id": "virtualPhotobooth" },
     { "title": "FAQ", "id": "faq" }
@@ -18,7 +20,7 @@
         "content": "https://ik.imagekit.io/saepulmalik/PLW/plw-logo_1D-byOmGW57r.png"
       },
       "description": "<p> Permata Virtual Learning Week, <br/> Save the date:  </p> <br/> <p> <b>3 - 5 Agustus 2021 | 10.00 - 17.00 WIB </b></p>",
-      "src": "https://ik.imagekit.io/saepulmalik/PLW/hero-section-plw_N-mjEBPc66EC.png",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/hero-v3-plw_4B4bC_CRa.png",
       "cta": [
         {
           "title": "Daftar Session",
@@ -46,8 +48,8 @@
         "component": "WithIllu"
       },
       "title": { "type": "text", "content": "Ask Speaker", "style": "neon" },
-      "description": "<p> Punya pertanyaan untuk para pembicara di Permata Learning Week 2021? Yuk langsung tanyakan sekarang! Pertanyaan yang terpilih akan dibacakan pada saat rangkaian acara webinar berlangsung. </p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/PLW/speaker_illu_bDPLfRXwmW7z.png",
+      "description": "<p> Punya pertanyaan untuk para pembicara di Permata Learning Week 2021? Yuk langsung tanyakan sekarang! Pertanyaan yang terpilih akan dibacakan pada saat rangkaian acara webinar berlangsung.  </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/ask-speaker-plw_Md0BytRkIY2C.png",
       "cta": [
         {
           "title": "Submit",
@@ -289,11 +291,11 @@
       },
       "title": {
         "type": "text",
-        "content": "Podcast Recomandation",
+        "content": "Recommended Educational Podcasts",
         "style": "neon"
       },
-      "description": "<p> Ingin banyak belajar tapi tidak tahu harus mulai dari mana? Temukan berbagai podcast menarik mengenai skills, business & finance, serta technology & innovation yang siap temani waktu belajar kamu. Kalau tidak dimulai dari diri sendiri, siapa lagi? </p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/PLW/podcast-recomandation_illu_1B_pctBwu.png",
+      "description": "<p> Ingin banyak belajar tapi tidak tahu harus mulai dari mana? Temukan berbagai podcast menarik mengenai skills, business & finance, serta technology & innovation yang siap temani waktu belajar kamu. Menangkan 3 Audio Playbook “Meaningful Leadership” dari Yoris Sebastian bagi kamu yang aktif mendengarkan podcast dan menjawab quiz yang terdapat di dalamnya. Ayo dengarkan sekarang! </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/podcast-plw_y7gdzcSMI.png",
       "cta": [
         {
           "title": "Visit",
@@ -327,7 +329,7 @@
         "style": "neon"
       },
       "description": "<p> Ayo download virtual backgroud ini dan jangan lupa untuk memakainya ketika kamu mengikuti sesi webinar Permata Learning Week 2021 pada tanggal 3 - 5 Agustus 2021 </p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/PLW/list_illu_h-yYXrPYs.png",
+      "src": "https://ik.imagekit.io/saepulmalik/PLW/virtual-backgorund-plw_4HN35Y4kt.png",
       "cta": [
         {
           "title": "Download",
