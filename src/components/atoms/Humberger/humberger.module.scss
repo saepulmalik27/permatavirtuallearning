@@ -1,7 +1,7 @@
 @import "src/scss/mixins";
 .humberger {
   display: unset;
-    width: 40px;
+  width: 40px;
   height: 30px;
   position: fixed;
   top: 2.5rem;
@@ -15,7 +15,7 @@
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  
+
   span {
     display: block;
     position: absolute;
@@ -33,17 +33,32 @@
     -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
   }
+
+  @include media-max-width($mobile-breakpoint) {
+    height: 2rem;
+    width: 3rem;
+    span {
+      height: 3px;
+    }
+  }
   span:nth-child(1) {
     top: 0px;
     width: 100%;
+    
   }
   span:nth-child(2) {
     top: 15px;
     width: 70%;
+    @include media-max-width($mobile-breakpoint) {
+      top: 10px;
+    }
   }
   span:nth-child(3) {
     top: 30px;
     width: 100%;
+    @include media-max-width($mobile-breakpoint) {
+      top: 20px;
+    }
   }
 
   &.open {
@@ -66,5 +81,4 @@
       transform: rotate(-135deg);
     }
   }
-  
 }
