@@ -9,6 +9,42 @@
             "name" : "malik",
             "NPK" : "23456",
             "email" : "saepulalmalik@gmail.com"
+        },
+        {
+           "NPK" : "19061",	"name" : "Christianto", "email"	: "chris_banke@yahoo.com"
+        },
+        {
+           "NPK" : "36043",	"name" : "Lo Herman", "email"	: "herman.jazz@gmail.com"
+        },
+        {
+           "NPK" : "39399",	"name" : "Theresia Kusumaningtyas", "email"	: "tyasth@gmail.com"
+        },
+        {
+           "NPK" : "11111",	"name" : "Rena Tabitha", "email" : "rena@inspigo.id"
+        },
+        {
+           "NPK" : "22222",	"name" : "Putri", "email" : "putri@inspigo.id"
+        },
+        {
+           "NPK" : "33333",	"name" : "Dhanes", "email" : "dhanes@inspigo.id"
+        },
+        {
+           "NPK" : "44444",	"name" : "MT Incubator", "email" : "mtincubator@inspigo.id"
+        },
+        {
+           "NPK" : "55555",	"name" : "Zulfiqar", "email" : "permatalearningweek2021@gmail.com"
+        },
+        {
+           "NPK" : "66666",	"name" : "Kevin William", "email" : "kevin@inspigo.id"
+        },
+        {
+           "NPK" : "77777",	"name" : "Harry", "email" : "kevin@inspigo.id"
+        },
+        {
+           "NPK" : "88888",	"name" : "Tyo Guritno", "email" : "tyo@inspigo.id"
+        },
+        {
+           "NPK" : "99999",	"name" : "Dita Guritno", "email" : "dita@inspigo.id"
         }
     ]
 }
