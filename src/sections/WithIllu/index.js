@@ -12,16 +12,15 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
   const [showTerm, setshowTerm] = useState(false)
   const [token, settoken] = useState(null)
   const handleTerm = (e) => {
-    setshowTerm(e.term)
-    getToken(e.url)
+    getToken(e.url, e)
   }
 
-  const getToken = (url) => {
+  const getToken = (url, e) => {
 
     let data = {
       "email" : user.email,
       "dob" : null,
-      "name" : `(${user.NPK}) - ${user.name}`,
+      "name" : `${user.name} - (${user.NPK})`,
       "gender" : null
     }
 
@@ -33,7 +32,7 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
       body: JSON.stringify(data)
     })
     .then(response => response.json())
-    .then(data => settoken(data.data.token));
+    .then(data =>{ settoken(data.data.token); setshowTerm(e.term)});
   }
   
   return (
