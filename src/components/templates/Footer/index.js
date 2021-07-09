@@ -3,7 +3,9 @@ import * as styles from './footer.module.scss'
 
 const Footer = ({creator}) => {
     return (
-        <footer className={styles.footer}>© {new Date().getFullYear()}, {creator} </footer>
+        <footer className={styles.footer}>
+            {/* © {new Date().getFullYear()}, {creator} */}
+             </footer>
     )
 }
 
