@@ -328,8 +328,9 @@
         "content": "Virtual Background",
         "style": "neon"
       },
-      "description": "<p> Ayo download virtual backgroud ini dan jangan lupa untuk memakainya ketika kamu mengikuti sesi webinar Permata Learning Week 2021 pada tanggal 3 - 5 Agustus 2021 </p> ",
+      "description": "<p> Ayo download virtual backgroud ini dan jangan lupa untuk memakainya selama event Permata Learning Week 2021 pada tanggal 3 - 5 Agustus 2021 </p> ",
       "src": "https://ik.imagekit.io/saepulmalik/PLW/virtual-backgorund-plw_4HN35Y4kt.png",
+      "reverse" : true,
       "cta": [
         {
           "title": "Download",

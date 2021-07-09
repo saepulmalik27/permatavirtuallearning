@@ -16,8 +16,6 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
     getToken(e.url)
   }
 
-  
-
   const getToken = (url) => {
 
     let data = {
@@ -37,10 +35,6 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
     .then(response => response.json())
     .then(data => settoken(data.data.token));
   }
-
-  
-
-  
   
   return (
     <Section className={cx(styles.withillu, reverse ? styles.reverse : null)} id={section.name}>      
