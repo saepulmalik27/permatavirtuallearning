@@ -6,10 +6,11 @@ import EventList from "src/sections/EventList"
 import Layout from "src/hoc/layout"
 import Seo from "src/hoc/seo"
 import Modal from "components/templates/Modal";
-import dataJson from "content/permata.json"
+import { permata } from "content/permata.js"
 import {getFromLocalStorage} from 'src/utils/helpers'
 import Faq from "src/sections/Faq"
 import Login from "components/templates/Login";
+
 
 const IndexPage = () => {
   const [closeModal, setcloseModal] = useState(true)
@@ -64,9 +65,9 @@ const IndexPage = () => {
   )
   
   return (
-    <Layout navigation={dataJson.navigation}>
+    <Layout navigation={permata.navigation}>
       <Seo title="Home" />
-      {dataJson.sections.map((val, key) => {
+      {permata.sections.map((val, key) => {
         if (user && (val.section.name === 'askSpeaker' || val.section.name === 'hero')) {
           val.cta[0].url = val.cta[0].url.replace(`{{npk}}`,user.NPK)
           val.cta[0].url = val.cta[0].url.replace(`{{name}}`,user.name)

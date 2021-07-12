@@ -9,6 +9,7 @@ import iconemail from 'src/images/icons/email.svg'
 import iconuser from 'src/images/icons/user.svg'
 import iconlist from 'src/images/icons/userid.svg'
 import iconwarning from 'src/images/icons/warning.svg'
+import loginBanner from 'src/images/Illu/login_banner_plw.png'
 
 
 const Login = ({closed}) => {
@@ -68,7 +69,7 @@ const Login = ({closed}) => {
     <div className={styles.login}>
       <Illu
         src={
-          "https://ik.imagekit.io/saepulmalik/PLW/login-banner_RYC1wBnYM.png"
+          loginBanner
         }
         className={styles.login_illu}
       />
