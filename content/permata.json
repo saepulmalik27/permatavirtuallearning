@@ -3,7 +3,6 @@
     { "title": "About", "id": "about" },
     { "title": "Ask Speaker", "id": "askSpeaker" },
     { "title": "Schedule", "id": "schedule" },
-    {"title" : "Permata Got Talent", "id" : "permataGotTalent"},
     {"title" : "Podcast", "id" : "podcastRecomandation"},
     { "title": "Virtual Background", "id": "virtualBackground" },
     { "title": "Photobooth", "id": "virtualPhotobooth" },
@@ -269,20 +268,6 @@
           ]
         }
       ]
-    },
-    {
-      "section": {
-        "name": "permataGotTalent",
-        "component": "WithIllu"
-      },
-      "title": {
-        "type": "text",
-        "content": "Permata Got Talent",
-        "style": "neon"
-      },
-      "description": "<p> Punya bakat menari, menyanyi, baca puisi, atau stand up comedy yang selama ini terpendam? Ini saatnya jadi bintang di Permata Got Talent! 3 pemenang terpilih akan tampil secara eksklusif di Closing Ceremony Permata Learning Week 2021. Tunggu apa lagi? <br/><br/>Kirimkan video dalam format MP4, landscape, ratio 16:9, resolusi 1080p : 1920 x 1080 (rekomen). Kemudian kirim video dalam bentuk link google drive / WeTransfer / dropbox (via cloud) ke email : learning.permata@gmail.com dengan subject : Permata Got Talent_Nama / group anda</p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/PLW/permata-gottalent_illu_-SwxSoBvl.png",
-      "reverse": true
     },
     {
       "section": {
