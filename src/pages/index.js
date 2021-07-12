@@ -6,7 +6,7 @@ import EventList from "src/sections/EventList"
 import Layout from "src/hoc/layout"
 import Seo from "src/hoc/seo"
 import Modal from "components/templates/Modal";
-import { permata } from "content/permata.js"
+import { permata } from "src/utils/permata.js"
 import {getFromLocalStorage} from 'src/utils/helpers'
 import Faq from "src/sections/Faq"
 import Login from "components/templates/Login";
