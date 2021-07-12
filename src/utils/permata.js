@@ -6,7 +6,6 @@ import virtualBackground from 'src/images/illu/virtual_background_plw.png'
 import podcast from 'src/images/illu/podcast_plw.png'
 import photobooth1 from 'src/images/illu/photobooth_1_plw.png'
 import photobooth2 from 'src/images/illu/photobooth_2_plw.png'
-
 import event_030821_1_plw from 'src/images/illu/event/event_030821_1_plw.png'
 import event_030821_2_plw from 'src/images/illu/event/event_030821_2_plw.png'
 import event_030821_3_plw from 'src/images/illu/event/event_030821_3_plw.png'
