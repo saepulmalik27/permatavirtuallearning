@@ -301,7 +301,7 @@
           "title": "Visit",
           "term" : true,
           "login" : true,
-          "url": "https://wapi.inspigo.id/client-token/login/TC52rZWu5ASQZeYW9GigEvkGK2kUhH"
+          "url": "https://staging-wapi.inspigo.id/client-token/login/UL31OkW2Orf7W8MGGmY3vc5ExsIUAJ"
         }
       ],
       "term" : {
@@ -377,8 +377,8 @@
           "description": "<p>Ya, kamu diharuskan mendaftar lewat menu “Daftar Session” agar dapat tervalidasi sebagai peserta Permata Learning Week 2021. Kamu memiliki waktu sampai tanggal 2 Agustus 2021 untuk mendaftar lewat “Daftar Session”.</p>"
         },
         {
-          "title": "3. Kapan tenggat waktu pengiriman pertanyaan untuk para pembicara dan pengumpulan video untuk Permata Got Talent?",
-          "description": "<p>Pengumpulan pertanyaan untuk para pembicara dan video Permata Got Talent akan ditutup pada tanggal 2 Agustus 2021.</p>"
+          "title": "3. Kapan tenggat waktu pengiriman pertanyaan untuk para pembicara?",
+          "description": "<p>Pengumpulan pertanyaan untuk para pembicara akan ditutup pada tanggal 2 Agustus 2021.</p>"
         },
         {
           "title": "4. Apakah pada tanggal 3 - 5 Agustus 2021 saya hanya boleh mengikuti webinar yang sudah saya pilih saat mengisi “Daftar Session”?",

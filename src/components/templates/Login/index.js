@@ -14,8 +14,9 @@ import iconwarning from 'src/images/icons/warning.svg'
 const Login = ({closed}) => {
   const [name, setName] = useState("")
   const [NPK, setNPK] = useState("")
-  const [error, seterror] = useState("")
+  const [errorNpk, setErrorNpk] = useState("")
   const [email, setEmail] = useState("")
+  const [errorEmail, setErrorEmail] = useState("")
   const [success, setsuccess] = useState("")
   const [user, setuser] = useState(null)
 
@@ -37,16 +38,22 @@ const Login = ({closed}) => {
 
   const login = data => {
     const user = userData.users.find(val => val.NPK === data)
-    if (user) {
+    if (user && email) {
       setuser(user)
       setName(user.name)
-      setEmail(user.email)
-      seterror("")
+      setEmail(email)
+      setErrorNpk("")
+      setErrorEmail("")
       setsuccess("Update Email (Optional)")
     } else {
       setName("")
       setEmail("")
-      seterror("NPK tidak terdaftar")
+      if (!user) {
+        setErrorNpk("NPK tidak terdaftar")        
+      }
+      if (!email) {
+        setErrorEmail("Email tidak Terisi")
+      }
       setsuccess("")
     }
   }
@@ -68,7 +75,7 @@ const Login = ({closed}) => {
       <div className={styles.login_body}>
         <div className={styles.login_body__title}>
           <h4>Login</h4>
-          <p>Masukan NPK yang terdaftar.</p>
+          <p>Masukan NPK dan Email</p>
         </div>
         <div className={styles.login_body__form}>
        
@@ -81,7 +88,15 @@ const Login = ({closed}) => {
             onChange={e => handleChange(e, "npk")}
             disabled={success ? true : false}
           />
-          {error ? <p className={styles.label_error}> <img src={iconwarning} alt="" /> {error}</p> : null}
+          {errorNpk ? <p className={styles.label_error}> <img src={iconwarning} alt="" /> {errorNpk}</p> : null}
+          <br />
+          <Input
+            label="Email"
+            icon={iconemail}
+            value={email}
+            onChange={e => handleChange(e, "email")}
+          />
+          {errorEmail ? <p className={styles.label_error}> <img src={iconwarning} alt="" /> {errorEmail}</p> : null}
           <br />
           <Input
             label="Nama"
@@ -90,16 +105,6 @@ const Login = ({closed}) => {
             onChange={e => handleChange(e, "name")}
             disabled={true}
           />
-
-          <Input
-            label="email"
-            icon={iconemail}
-            value={email}
-            onChange={e => handleChange(e, "email")}
-            disabled={!success ? true : false}
-          />
-          {success ? <p className={styles.label_warning}>{success}</p> : null}
-          
         </div>
         
         {success ? <Button

@@ -26,9 +26,9 @@ export class disableScroll {
 // }
 
 export const saveToLocalStorage = (data) => {
-    const now = new Date()
-    const ttl = 259200000;
-    data.expiry = now.getTime() + ttl;
+    // const now = new Date()
+    // const ttl = 259200000;
+    // data.expiry = now.getTime() + ttl;
     localStorage.setItem("loginData", JSON.stringify(data));
     return true;
 }
@@ -42,12 +42,12 @@ export const getFromLocalStorage = () => {
 	const item = JSON.parse(isLogin)
 	const now = new Date()
 	// compare the expiry time of the item with the current time
-	if (now.getTime() > item.expiry) {
-		// If the item is expired, delete the item from storage
-		// and return null
-		localStorage.removeItem("loginData")
-		return null
-	}
+	// if (now.getTime() > item.expiry) {
+	// 	// If the item is expired, delete the item from storage
+	// 	// and return null
+	// 	localStorage.removeItem("loginData")
+	// 	return null
+	// }
 	return item;
 }
 
