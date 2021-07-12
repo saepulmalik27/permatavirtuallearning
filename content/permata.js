@@ -1,26 +1,26 @@
 
-import hero from 'src/images/illu/hero_section_plw.png';
-import plw_logo from 'src/images/illu/plw_logo.png';
-import askSpeaker from 'src/images/illu/ask_speaker_plw.png'
-import virtualBackground from 'src/images/illu/virtual_background_plw.png'
-import podcast from 'src/images/illu/podcast_plw.png'
-import photobooth1 from 'src/images/illu/photobooth_1_plw.png'
-import photobooth2 from 'src/images/illu/photobooth_2_plw.png'
+import hero from '../src/images/illu/hero_section_plw.png';
+import plw_logo from '../src/images/illu/plw_logo.png';
+import askSpeaker from '../src/images/illu/ask_speaker_plw.png'
+import virtualBackground from '../src/images/illu/virtual_background_plw.png'
+import podcast from '../src/images/illu/podcast_plw.png'
+import photobooth1 from '../src/images/illu/photobooth_1_plw.png'
+import photobooth2 from '../src/images/illu/photobooth_2_plw.png'
 
-import event_030821_1_plw from 'src/images/illu/event/event_030821_1_plw.png'
-import event_030821_2_plw from 'src/images/illu/event/event_030821_2_plw.png'
-import event_030821_3_plw from 'src/images/illu/event/event_030821_3_plw.png'
-import event_030821_4_plw from 'src/images/illu/event/event_030821_4_plw.png'
-import event_040821_1_plw from 'src/images/illu/event/event_040821_1_plw.png'
-import event_040821_2_plw from 'src/images/illu/event/event_040821_2_plw.png'
-import event_040821_3_plw from 'src/images/illu/event/event_040821_3_plw.png'
-import event_040821_4_plw from 'src/images/illu/event/event_040821_4_plw.png'
-import event_050821_1_plw from 'src/images/illu/event/event_050821_1_plw.png'
-import event_050821_2_plw from 'src/images/illu/event/event_050821_2_plw.png'
-import event_050821_3_plw from 'src/images/illu/event/event_050821_3_plw.png'
-import event_050821_4_plw from 'src/images/illu/event/event_050821_4_plw.png'
-import event_050821_5_plw from 'src/images/illu/event/event_050821_5_plw.png'
-import event_050821_6_plw from 'src/images/illu/event/event_050821_6_plw.png'
+import event_030821_1_plw from '../src/images/illu/event/event_030821_1_plw.png'
+import event_030821_2_plw from '../src/images/illu/event/event_030821_2_plw.png'
+import event_030821_3_plw from '../src/images/illu/event/event_030821_3_plw.png'
+import event_030821_4_plw from '../src/images/illu/event/event_030821_4_plw.png'
+import event_040821_1_plw from '../src/images/illu/event/event_040821_1_plw.png'
+import event_040821_2_plw from '../src/images/illu/event/event_040821_2_plw.png'
+import event_040821_3_plw from '../src/images/illu/event/event_040821_3_plw.png'
+import event_040821_4_plw from '../src/images/illu/event/event_040821_4_plw.png'
+import event_050821_1_plw from '../src/images/illu/event/event_050821_1_plw.png'
+import event_050821_2_plw from '../src/images/illu/event/event_050821_2_plw.png'
+import event_050821_3_plw from '../src/images/illu/event/event_050821_3_plw.png'
+import event_050821_4_plw from '../src/images/illu/event/event_050821_4_plw.png'
+import event_050821_5_plw from '../src/images/illu/event/event_050821_5_plw.png'
+import event_050821_6_plw from '../src/images/illu/event/event_050821_6_plw.png'
 
 export const permata =  {
         "navigation": [
