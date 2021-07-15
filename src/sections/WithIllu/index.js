@@ -10,10 +10,16 @@ import Modal from 'components/templates/Modal'
 const WithIllu = ({title, description, src, reverse, cta, section, term, user}) => {
 
   const [showTerm, setshowTerm] = useState(false)
+  const [urlApi, setUrlApi] = useState("")
   const [token, settoken] = useState(null)
   const handleTerm = (e) => {
-    getToken(e.url, e)
+    setshowTerm(e.term)
+    setUrlApi(e.url)
   }
+
+  const handleAction = e => {
+    getToken(urlApi, e)
+  }   
 
   const getToken = (url, e) => {
 
@@ -32,7 +38,8 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
       body: JSON.stringify(data)
     })
     .then(response => response.json())
-    .then(data =>{ settoken(data.data.token); setshowTerm(e.term)});
+    .then(data =>{ settoken(data.data.token); window.open(e.url.replace(`{{token}}`, data.data.token), '_self') });
+   
   }
   
   return (
@@ -40,10 +47,7 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
       <Card title={title} description={description} cta={cta} term={term} handleTerm={e => {handleTerm(e)}} />
       <Illu src={src} className={styles.withillu_illu} imgClass={styles.withillu_illu__img} />
       { term ?  <Modal hide={!showTerm} closed={() => {setshowTerm(false)} } >
-        <Card className={styles.withillu__modal} title={term.title} description={term.description} cta={[{
-          ...term.cta[0],
-          "url" : term.cta[0].url.replace(`{{token}}`,token)
-        }]} />
+        <Card className={styles.withillu__modal} title={term.title} handleAction={e => {handleAction(e)}} description={term.description} cta={term.cta} />
       </Modal>  : null}
     </Section>
   )

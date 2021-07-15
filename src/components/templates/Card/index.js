@@ -9,8 +9,8 @@ import PropTypes from 'prop-types'
 // import Modal from 'components/templates/Modal'
 
 
-const Card = ({ title, description, cta, align, handleTerm, className }) => {
-  const [showTerm, setshowTerm] = useState(false)
+const Card = ({ title, description, cta, align, handleTerm, handleAction, className }) => {
+
   let text_align = Typo.text_center
   switch (align) {
     case "center":
@@ -46,9 +46,11 @@ const Card = ({ title, description, cta, align, handleTerm, className }) => {
 
   const handleCta = (cta) => {
     if (cta.term) {
-      setshowTerm(true)
       handleTerm({url : cta.url, term : true})
-    }else{
+    }else if(cta.action){
+      handleAction({url :cta.url})
+    }
+    else{
       if (cta.replaceUrl) {
         window.open(cta.url, '_self')
       }else{

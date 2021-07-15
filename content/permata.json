@@ -297,8 +297,8 @@
         "description" : "<p> Dengan mengklik “Lanjutkan”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Permata Learning Week 2021) dengan email yang kamu daftarkan pada acara ini.  </p> ",
         "cta" : [{
           "title" : "lanjutkan",
-          "url" : "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}",
-          "replaceUrl" : true
+          "action" : true,
+          "url" : "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}"
         }
         ]
       }
