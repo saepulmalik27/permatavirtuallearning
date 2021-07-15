@@ -19,7 +19,7 @@
         "content": "https://cdn.inspigo.id/public/plw2021/plw_logo.png"
       },
       "description": "<p> Permata Virtual Learning Week, <br/> Save the date:  </p> <br/> <p> <b>3 - 5 Agustus 2021 | 09.15-17.00  WIB </b></p>",
-      "src": "https://ik.imagekit.io/saepulmalik/plw21/hero_section_plw_t37pjnk_7.png",
+      "src": "https://cdn.inspigo.id/public/plw2021/hero_section_plw.png",
       "cta": [
         {
           "title": "Daftar Sesi",
@@ -74,7 +74,7 @@
           "title": "3 Agustus 2021",
           "list_content": [
             {
-              "src": "https://ik.imagekit.io/saepulmalik/plw21/event_030821_1_plw_Oj4rcQNTy.png",
+              "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_1_plw.png",
               "event": {
                 "title": "Opening Permata Learning Week 2021",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
