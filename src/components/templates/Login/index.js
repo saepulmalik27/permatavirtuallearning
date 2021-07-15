@@ -76,7 +76,7 @@ const Login = ({closed}) => {
       <div className={styles.login_body}>
         <div className={styles.login_body__title}>
           <h4>Login</h4>
-          <p>Masukan NPK dan Email</p>
+          <p>Masukkan 5 Digit NPK dan Email Pribadi</p>
         </div>
         <div className={styles.login_body__form}>
        

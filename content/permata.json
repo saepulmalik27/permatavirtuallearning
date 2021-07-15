@@ -19,10 +19,10 @@
         "content": "https://cdn.inspigo.id/public/plw2021/plw_logo.png"
       },
       "description": "<p> Permata Virtual Learning Week, <br/> Save the date:  </p> <br/> <p> <b>3 - 5 Agustus 2021 | 09.15-17.00  WIB </b></p>",
-      "src": "https://cdn.inspigo.id/public/plw2021/hero_section_plw.png",
+      "src": "https://ik.imagekit.io/saepulmalik/plw21/hero_section_plw_t37pjnk_7.png",
       "cta": [
         {
-          "title": "Daftar Session",
+          "title": "Daftar Sesi",
           "url": "https://form.typeform.com/to/o2Drpm5d?npk={{npk}}&name={{name}}&email={{email}}",
           "login": true
         }
