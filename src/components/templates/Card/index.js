@@ -45,23 +45,26 @@ const Card = ({ title, description, cta, align, handleTerm, handleAction, classN
   }
 
   const handleCta = (cta) => {
-    if (cta.term) {
-      handleTerm({url : cta.url, term : true})
-    }else if(cta.action){
-      handleAction({url :cta.url})
-    }
-    else{
-      if (cta.replaceUrl) {
-        window.open(cta.url, '_self')
-      }else{
-        window.open(cta.url, '_blank' )
+    if (!cta.disabled) {
+      if (cta.term) {
+        handleTerm({url : cta.url, term : true})
+      }else if(cta.action){
+        handleAction({url :cta.url})
+      }
+      else{
+        if (cta.replaceUrl) {
+          window.open(cta.url, '_self')
+        }else{
+          window.open(cta.url, '_blank' )
+        }
       }
     }
+    
   }
 
   const renderCTA = (cta) => {
     return cta.map((val, key) => {
-      return <Button type={"primary"} size={"small"} key={key} cta={() => { handleCta(val) }} >{val.title}</Button>
+      return <Button type={val.disabled ? "secondary" : "primary"} size={"small"} key={key} cta={() => { handleCta(val) }} >{val.title}</Button>
     })
   }
 

@@ -23,6 +23,12 @@ const CardEvent = ({ src, event, direction, cta }) => {
       break;
   }
 
+  const handleCta = (disabled, url) => {
+    if (!disabled) {
+      window.open(url)
+    }
+  }
+
   return (
     <div className={cx(styles.cardevent, contentDirection)}>
       <Illu src={src} className={styles.cardevent_illu} />
@@ -36,7 +42,7 @@ const CardEvent = ({ src, event, direction, cta }) => {
       </div>
       <div className={styles.cardevent_cta}>
         {
-          cta.map((val, key) => ( <Button key={key} type={"primary"} size={"small"} cta={() => window.open(val.url)} >{val.title}</Button>))
+          cta.map((val, key) => ( <Button key={key} type={ val.disabled ? "secondary" : "primary"} size={"small"} cta={() => handleCta(val.disabled, val.url)} >{val.title}</Button>))
         }
       </div>
     </div>
