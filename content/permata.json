@@ -82,7 +82,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -95,7 +95,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -108,7 +108,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -121,7 +121,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             }
@@ -139,7 +139,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -152,7 +152,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -165,7 +165,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -178,7 +178,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             }
@@ -196,7 +196,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -209,7 +209,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -222,7 +222,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -235,7 +235,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -248,7 +248,7 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             },
@@ -261,11 +261,31 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://google.com"
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09"
                 }
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "section": {
+        "name": "leaderboard",
+        "component": "WithIllu"
+      },
+      "title": {
+        "type": "text",
+        "content": "Leaderboard",
+        "style": "neon"
+      },
+      "description": "<p> Kumpulkan poin dengan berpartisipasi secara aktif dan menjawab quiz yang ada selama sesi webinar Permata Virtual Learning Week 2021. Peringkat 10 besar dapat kamu lihat lewat Leaderboard ini. Ayo, raih poin sebanyak-banyaknya dan menangkan hadiah menarik. <br/> <br/><i> *Data tidak real-time dan akan diupdate setiap harinya pukul 07:00 WIB </i> </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/plw21/award_plw_2MNtoePx5.png",
+      "reverse" : true,
+      "cta": [
+        {
+          "title": "Check",
+          "url": "https://drive.google.com/file/d/1OEHhPWxeiZBGDlgbDP0S8oVTqqhQ_c9x/view"
         }
       ]
     },

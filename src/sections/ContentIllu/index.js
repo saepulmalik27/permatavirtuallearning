@@ -38,7 +38,7 @@ const ContentIllu = ({ title, subtitle, cta, content, section }) => {
 
       <div className={styles.contentillu_content}>
         {content.map((val, key) => {
-          return <a href={cta[0].url} target="_blank" ><Illu className={styles.contentillu_content_illu} src={val.src} key={key} /></a> 
+          return <a href={cta[0].url} target="_blank" key={key} ><Illu className={styles.contentillu_content_illu} src={val.src} /></a> 
         })}
       </div>
       <div className={styles.contentillu_cta}>
