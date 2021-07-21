@@ -64,7 +64,7 @@ const Card = ({ title, description, cta, align, handleTerm, handleAction, classN
 
   const renderCTA = (cta) => {
     return cta.map((val, key) => {
-      return <Button type={val.disabled ? "secondary" : "primary"} size={"small"} key={key} cta={() => { handleCta(val) }} >{val.title}</Button>
+      return <Button type={val.disabled ? "secondary" : "primary"} size={"small"} key={key} cta={() => { handleCta(val) }} id={val.id} >{val.title}</Button>
     })
   }
 

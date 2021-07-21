@@ -21,6 +21,14 @@ module.exports = {
         content : path.join(__dirname,'content')
       }
     },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+          id: "GTM-TNCBPVL",
+          includeInDevelopment: true,
+          routeChangeEventName: "route-change"
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
