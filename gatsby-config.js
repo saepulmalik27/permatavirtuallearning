@@ -25,7 +25,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
           id: "GTM-TNCBPVL",
-          includeInDevelopment: true,
+          includeInDevelopment: false,
           routeChangeEventName: "route-change"
       }
     },
