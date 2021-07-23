@@ -1,8 +1,8 @@
 {
   "navigation": [
     { "title": "About", "id": "about" },
+    { "title": "Ask Speaker", "id": "askSpeaker" },
     { "title": "Schedule", "id": "schedule" },
-    { "title": "Leaderboard", "id": "leaderboard" },
     {"title" : "Podcast", "id" : "podcastRecomandation"},
     { "title": "Virtual Background", "id": "virtualBackground" },
     { "title": "Photobooth", "id": "virtualPhotobooth" },
@@ -83,7 +83,7 @@
                 {
                   "title": "join room",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : false
+                  "disabled" : true
                 }
               ]
             },
