@@ -43,6 +43,23 @@
     },
     {
       "section": {
+        "name": "askSpeaker",
+        "component": "WithIllu"
+      },
+      "title": { "type": "text", "content": "Ask Speaker", "style": "neon" },
+      "description": "<p> Punya pertanyaan untuk para pembicara di Permata Learning Week 2021? Yuk langsung tanyakan sekarang! Pertanyaan yang terpilih akan dibacakan pada saat rangkaian acara webinar berlangsung.  </p> ",
+      "src": "https://cdn.inspigo.id/public/plw2021/ask_speaker_plw.png",
+      "cta": [
+        {
+          "title": "Submit",
+          "url": "https://form.typeform.com/to/kKDjPOSs?npk={{npk}}&email={{email}}&name={{name}}",
+          "login": true
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "section": {
         "name": "schedule",
         "component": "EventList"
       },
@@ -163,7 +180,7 @@
               "src": "https://cdn.inspigo.id/public/plw2021/event/event_040821_4_plw.png",
               "event": {
                 "title": "Permata Digital Banking Webinar",
-                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 10.00 -12.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Regi Wahyu, Gildas Deograt, Teguh Supangkat, Norman Sasono</p>"
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 15.00 -17.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Regi Wahyu, Gildas Deograt, Teguh Supangkat, Norman Sasono</p>"
               },
               "cta": [
                 {
@@ -263,27 +280,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "section": {
-        "name": "leaderboard",
-        "component": "WithIllu"
-      },
-      "title": {
-        "type": "text",
-        "content": "Leaderboard",
-        "style": "neon"
-      },
-      "description": "<p> Kumpulkan poin dengan berpartisipasi secara aktif dan menjawab quiz yang ada selama sesi webinar Permata Virtual Learning Week 2021. Peringkat 10 besar dapat kamu lihat lewat Leaderboard ini. Ayo, raih poin sebanyak-banyaknya dan menangkan hadiah menarik. <br/> <br/><i> *Data tidak real-time dan akan diupdate setiap harinya pukul 07:00 WIB </i> </p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/plw21/award_plw_2MNtoePx5.png",
-      "reverse" : true,
-      "cta": [
-        {
-          "title": "Coming Soon",
-          "url": "/",
-          "disabled" : true
         }
       ]
     },
