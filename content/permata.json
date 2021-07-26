@@ -1,7 +1,7 @@
 {
   "navigation": [
     { "title": "About", "id": "about" },
-    { "title": "Ask Speaker", "id": "askSpeaker" },
+    { "title": "Leaderboard", "id": "leaderboard" },
     { "title": "Schedule", "id": "schedule" },
     {"title" : "Podcast", "id" : "podcastRecomandation"},
     { "title": "Virtual Background", "id": "virtualBackground" },
@@ -74,7 +74,7 @@
           "title": "3 Agustus 2021",
           "list_content": [
             {
-              "src": "https://ik.imagekit.io/saepulmalik/plw21/event_030821_1_plw_asrPq1_md.png?updatedAt=1627099915607",
+              "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_1_plw.png",
               "event": {
                 "title": "Opening Permata Learning Week 2021",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
@@ -83,7 +83,7 @@
                 {
                   "title": "join room",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "disabled" : false
                 }
               ]
             },
@@ -177,7 +177,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/plw21/event_040821_4_plw_GBtQP7IiG.png?updatedAt=1627100802286",
+              "src": "https://cdn.inspigo.id/public/plw2021/event/event_040821_4_plw.png",
               "event": {
                 "title": "The Future of Financial Industry : Opportunity & Risk",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 4 Agustus 2021, 15.00 -17.00 WIB  <br/><br/>  <b>Speaker</b> : <br/> Regi Wahyu, Gildas Deograt, Teguh Supangkat, Norman Sasono</p>"
@@ -224,7 +224,7 @@
               ]
             },
             {
-              "src": "https://ik.imagekit.io/saepulmalik/plw21/event_050821_3_plw_3BjA6spM3.png?updatedAt=1627099915580",
+              "src": "https://cdn.inspigo.id/public/plw2021/event/event_050821_3_plw.png",
               "event": {
                 "title": "Raising Children in Digital Era",
                 "content": "<p> <b> Tanggal & Waktu </b> : <br/> 5 Agustus 2021, 10.00 -12.00 WIB<br/><br/>  <b>Speaker</b> : <br/> Elizabeth Santosa</p>"
@@ -283,6 +283,27 @@
         }
       ]
     },
+      {
+        "section": {
+          "name": "leaderboard",
+          "component": "WithIllu"
+        },
+        "title": {
+          "type": "text",
+          "content": "Leaderboard",
+          "style": "neon"
+        },
+        "description": "<p> Kumpulkan poin dengan berpartisipasi secara aktif dan menjawab quiz yang ada selama sesi webinar Permata Virtual Learning Week 2021. Peringkat 10 besar dapat kamu lihat lewat Leaderboard ini. Ayo, raih poin sebanyak-banyaknya dan menangkan hadiah menarik. <br/> <br/><i> *Data tidak real-time dan akan diupdate setiap harinya pukul 07:00 WIB </i> </p> ",
+        "src": "https://ik.imagekit.io/saepulmalik/plw21/award_plw_2MNtoePx5.png",
+        "reverse" : true,
+        "cta": [
+          {
+            "title": "Check",
+            "url": "https://docs.google.com/presentation/d/1Birit-QadJSRfcz2FmDBHA0FmJdHzyTPrr7KiTgxDVY/edit#slide=id.p",
+            "disabled" : false
+          }
+        ]
+      },
     {
       "section": {
         "name": "podcastRecomandation",
