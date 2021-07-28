@@ -177,12 +177,18 @@
               },
               "cta": [
                 {
-                  "title": "join room 1 ",
+                  "title": "room 1",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 },
                 {
-                  "title": "join room 2",
+                  "title": "room 2",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled" : true
+                },
+                ,
+                {
+                  "title": "room 3",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 }
@@ -271,12 +277,18 @@
               },
               "cta": [
                 {
-                  "title": "join room 1",
+                  "title": "room 1",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 },
                 {
-                  "title": "join room 2",
+                  "title": "room 2",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled" : true
+                },
+                ,
+                {
+                  "title": "room 3",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 }
