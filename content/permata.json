@@ -1,8 +1,8 @@
 {
   "navigation": [
     { "title": "About", "id": "about" },
-    { "title": "Leaderboard", "id": "leaderboard" },
     { "title": "Schedule", "id": "schedule" },
+    { "title": "Leaderboard", "id": "leaderboard" },
     {"title" : "Podcast", "id" : "podcastRecomandation"},
     { "title": "Virtual Background", "id": "virtualBackground" },
     { "title": "Photobooth", "id": "virtualPhotobooth" },
@@ -40,23 +40,6 @@
       },
       "description": "<p> Teknologi digital mendisrupsi banyak sektor bisnis, termasuk perbankan. Masa depan seolah-olah didefinisikan oleh dua opsi saja: untuk ikut mendisrupsi atau terdisrupsi. <br/><br/> Namun, di tengah dunia yang serba berubah, 'terlambat' jadi semakin dekat. Keputusan tak hanya harus tepat, tapi juga cepat. Pemenangnya tidak pula tetap, melihat skenario yang kian Volatile, Uncertain, Complex, dan Ambiguous kini. Satu hal yang pasti, di balik kejayaan manapun juga, peran Sumber Daya Manusia punya pengaruh besar. Mereka menciptakan satu perubahan untuk membuka lebih banyak pintu lainnya. <br/><br/> Permata Learning Week hadir untuk menyadarkan kembali kapabilitas dan kapasitas tiap insan PermataBank  agar siap bertempur dalam tiap agenda transformasi. Pertanyaannya adalah, kita sudah sampai mana? <br/><br/> Temukan jawabannya di tiap sesi menarik yang dihadirkan tahun ini. </p>",
       "align": "center"
-    },
-    {
-      "section": {
-        "name": "askSpeaker",
-        "component": "WithIllu"
-      },
-      "title": { "type": "text", "content": "Ask Speaker", "style": "neon" },
-      "description": "<p> Punya pertanyaan untuk para pembicara di Permata Learning Week 2021? Yuk langsung tanyakan sekarang! Pertanyaan yang terpilih akan dibacakan pada saat rangkaian acara webinar berlangsung.  </p> ",
-      "src": "https://cdn.inspigo.id/public/plw2021/ask_speaker_plw.png",
-      "cta": [
-        {
-          "title": "Submit",
-          "url": "https://form.typeform.com/to/kKDjPOSs?npk={{npk}}&email={{email}}&name={{name}}",
-          "login": true
-        }
-      ],
-      "reverse": true
     },
     {
       "section": {
@@ -105,12 +88,7 @@
               },
               "cta": [
                 {
-                  "title": "Room 1",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
-                },
-                {
-                  "title": "Room 2",
+                  "title": "join room",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 }
@@ -199,7 +177,12 @@
               },
               "cta": [
                 {
-                  "title": "join room",
+                  "title": "join room 1 ",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled" : true
+                },
+                {
+                  "title": "join room 2",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 }
@@ -288,7 +271,12 @@
               },
               "cta": [
                 {
-                  "title": "join room",
+                  "title": "join room 1",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled" : true
+                },
+                {
+                  "title": "join room 2",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 }
