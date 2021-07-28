@@ -23,6 +23,9 @@ import cx from 'classnames'
         case "large":
            sizeOfButton = styles.button_lg;
                break;
+        case "xsmall": 
+            sizeOfButton = styles.button_xsm;
+            break;
         default:
             sizeOfButton = ""
             break;
