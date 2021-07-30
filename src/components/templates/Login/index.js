@@ -38,7 +38,7 @@ const Login = ({closed}) => {
   }
 
   const login = data => {
-    const user = userData.users.find(val => val.NPK === data)
+    const user = userData.users.find(val =>  val.NPK.trim() === data)
     if (user && email) {
       setuser(user)
       setName(user.name)
