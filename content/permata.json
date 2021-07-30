@@ -1,8 +1,8 @@
 {
   "navigation": [
     { "title": "About", "id": "about" },
+    { "title": "Ask Speaker", "id": "askSpeaker" },
     { "title": "Schedule", "id": "schedule" },
-    { "title": "Leaderboard", "id": "leaderboard" },
     {"title" : "Podcast", "id" : "podcastRecomandation"},
     { "title": "Virtual Background", "id": "virtualBackground" },
     { "title": "Photobooth", "id": "virtualPhotobooth" },
@@ -43,6 +43,23 @@
     },
     {
       "section": {
+        "name": "askSpeaker",
+        "component": "WithIllu"
+      },
+      "title": { "type": "text", "content": "Ask Speaker", "style": "neon" },
+      "description": "<p> Punya pertanyaan untuk para pembicara di Permata Learning Week 2021? Yuk langsung tanyakan sekarang! Pertanyaan yang terpilih akan dibacakan pada saat rangkaian acara webinar berlangsung.  </p> ",
+      "src": "https://cdn.inspigo.id/public/plw2021/ask_speaker_plw.png",
+      "cta": [
+        {
+          "title": "Submit",
+          "url": "https://form.typeform.com/to/kKDjPOSs?npk={{npk}}&email={{email}}&name={{name}}",
+          "login": true
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "section": {
         "name": "schedule",
         "component": "EventList"
       },
@@ -64,17 +81,7 @@
               },
               "cta": [
                 {
-                  "title": "Room 1",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : false
-                },
-                {
-                  "title": "Room 2",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
-                },
-                {
-                  "title": "Room 3",
+                  "title": "join room",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 }
@@ -177,17 +184,7 @@
               },
               "cta": [
                 {
-                  "title": "room 1",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
-                },
-                {
-                  "title": "room 2",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
-                },
-                {
-                  "title": "room 3",
+                  "title": "join room",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 }
@@ -276,17 +273,7 @@
               },
               "cta": [
                 {
-                  "title": "room 1",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
-                },
-                {
-                  "title": "room 2",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
-                },
-                {
-                  "title": "room 3",
+                  "title": "join room",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled" : true
                 }
@@ -296,27 +283,6 @@
         }
       ]
     },
-      {
-        "section": {
-          "name": "leaderboard",
-          "component": "WithIllu"
-        },
-        "title": {
-          "type": "text",
-          "content": "Leaderboard",
-          "style": "neon"
-        },
-        "description": "<p> Kumpulkan poin dengan berpartisipasi secara aktif dan menjawab quiz yang ada selama sesi webinar Permata Virtual Learning Week 2021. Peringkat 10 besar dapat kamu lihat lewat Leaderboard ini. Ayo, raih poin sebanyak-banyaknya dan menangkan hadiah menarik. <br/> <br/><i> *Data tidak real-time dan akan diupdate setiap harinya pukul 07:00 WIB </i> </p> ",
-        "src": "https://ik.imagekit.io/saepulmalik/plw21/award_plw_2MNtoePx5.png",
-        "reverse" : true,
-        "cta": [
-          {
-            "title": "Check",
-            "url": "https://docs.google.com/presentation/d/1Birit-QadJSRfcz2FmDBHA0FmJdHzyTPrr7KiTgxDVY/edit#slide=id.p",
-            "disabled" : false
-          }
-        ]
-      },
     {
       "section": {
         "name": "podcastRecomandation",
