@@ -65,7 +65,7 @@
               "cta": [
                 {
                   "title": "Join Room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "url": "https://linktr.ee/OpeningPLW2021",
                   "disabled" : false
                 }
               ]
@@ -79,8 +79,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/88308690316?pwd=cTdpODg5MUkzK1dOcHJ3aUhqdW5GQT09",
+                  "disabled" : false
                 }
               ]
             },
@@ -93,8 +93,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/81634474950?pwd=eWtuR2hXZzBsWE5UWlBIQVNWWGdqdz09",
+                  "disabled" : false
                 }
               ]
             },
