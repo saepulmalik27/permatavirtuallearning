@@ -50,7 +50,7 @@
         "type": "text",
         "content": "Schedule"
       },
-      "description": "<p>Penasaran dengan tema webinar dan pembicara yang turut meramaikan Permata Learning Week 2021? Lihat dan catat jadwalnya di sini agar tak ketinggalan!</p>",
+      "description": "<p>Penasaran dengan tema webinar dan pembicara yang turut meramaikan Permata Learning Week 2021? Lihat dan catat jadwalnya di sini agar tak ketinggalan! Room akan dibuka <strong>SETENGAH JAM</strong> sebelum acara</p>",
       "contentType": "lists",
       "contents": [
         {
@@ -126,8 +126,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/81313526473?pwd=U05kMGtpbmY1M1lHSkU5RFlYYlRJZz09",
+                  "disabled" : false
                 }
               ]
             },
@@ -140,8 +140,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/84446491323?pwd=aGZncTdDVlovVVJzbW1NT2lnUnRPZz09",
+                  "disabled" : false
                 }
               ]
             },
@@ -154,13 +154,13 @@
               "cta": [
                 {
                   "title": "join room 1",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/86748477943?pwd=bno1MTJ2T3dOSjRRV2xxNGV1RU5wZz09",
+                  "disabled" : false
                 },
                 {
                   "title": "join room 2",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/81249252887?pwd=bTFTZGFsKy9uNUxyVXBDNmQvQktGQT09",
+                  "disabled" : false
                 }
               ]
             },
@@ -173,13 +173,13 @@
               "cta": [
                 {
                   "title": "join room 1",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/82072394713?pwd=c3VteXFMMXcyMTUyVEcxV2R4Z2dqZz09",
+                  "disabled" : false
                 },
                 {
                   "title": "join room 2",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/84161587183?pwd=R0FrRTNhZ2R6b3N2UlNWNGVreklSUT09",
+                  "disabled" : false
                 }
               ]
             }
@@ -197,8 +197,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/88638146206?pwd=REpUKzhiUUxDaFdmcDV2V1JTdEtFQT09",
+                  "disabled" : false
                 }
               ]
             },
@@ -211,8 +211,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/87230105804?pwd=TTBJYWJQcnF0Y04yUk0rYTExSnZ0dz09",
+                  "disabled" : false
                 }
               ]
             },
@@ -225,8 +225,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/82582302254?pwd=S0NQaTM0TVNnRWpucWRFUzIvWDNQdz09",
+                  "disabled" : false
                 }
               ]
             },
@@ -239,13 +239,13 @@
               "cta": [
                 {
                   "title": "join room 1",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/82497399187?pwd=M08vYWtvMFl0T0Z5QzVHOHErSGFDQT09",
+                  "disabled" : false
                 },
                 {
                   "title": "join room 2",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/87527174271?pwd=UEZUN0Q5TnhsTVFYVE5zTC9oWWJRQT09",
+                  "disabled" : false
                 }
               ]
             },
@@ -258,8 +258,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/84101758340?pwd=TjZvRHBObDIwNCtSekRYY2s0UGhPUT09",
+                  "disabled" : false
                 }
               ]
             },
@@ -272,8 +272,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://linktr.ee/ClosingPLW2021",
+                  "disabled" : false
                 }
               ]
             }
