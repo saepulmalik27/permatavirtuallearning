@@ -107,8 +107,8 @@
               "cta": [
                 {
                   "title": "join room",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled" : true
+                  "url": "https://us02web.zoom.us/j/83693679916?pwd=QitZVHNBUG5DcUNNU1pFMk5jM3M5Zz09",
+                  "disabled" : false
                 }
               ]
             }
